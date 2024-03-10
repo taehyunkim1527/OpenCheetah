@@ -1,0 +1,640 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997760
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 51200 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.083
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Truncate #1 on 51200 points by 12 bits
+HomBN #2 via element-wise mult on 51200 points
+[31m2 ==> -19319390344[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 512 points by 12 bits
+Time in sec for current matmul = 0.086
+80073182 => 53460299509
+[31mMatMul Output Mismatch[0m
+Relu #3 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Time in sec for current matmul = 0.086
+13365075886 => -20679037626
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Truncate #3 on 51200 points by 12 bits
+HomBN #3 via element-wise mult on 51200 points
+[31m2 ==> -27640889480[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #4 on 512 points by 12 bits
+Time in sec for current matmul = 0.086
+-207631900 => -17606808514
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Time in sec for current matmul = 0.081
+-1022 => -13135392648
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Truncate #5 on 51200 points by 12 bits
+HomBN #4 via element-wise mult on 51200 points
+[31m2 ==> -22943269000[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #6 on 512 points by 12 bits
+Time in sec for current matmul = 0.088
+801982906 => -52910911810
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Time in sec for current matmul = 0.086
+-1024 => -43316310882
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Truncate #7 on 51200 points by 12 bits
+HomBN #5 via element-wise mult on 51200 points
+[31m2 ==> -63678349448[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #8 on 512 points by 12 bits
+Time in sec for current matmul = 0.087
+-667825678 => -21621814214
+[31mMatMul Output Mismatch[0m
+Relu #15 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Time in sec for current matmul = 0.085
+-1024 => 38083118374
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.145
+Thread i = 0, total data sent till now = 19126369
+Thread i = 1, total data sent till now = 4133671
+Thread i = 2, total data sent till now = 2187511
+Thread i = 3, total data sent till now = 4133671
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 6471070 microseconds.
+Total data sent = 21.3668 MiB.
+Number of rounds = 267
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0.768 seconds.
+Total time in BatchNorm = 1.345 seconds.
+Total time in Truncation = 2.045 seconds.
+Total time in Relu = 1.305 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 4.28656 MiB.
+BatchNorm data sent = 11.6087 MiB.
+Truncation data sent = 5.34552 MiB.
+Relu data sent = 0.126068 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297638
+9297638
+9297638
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297638
+9297638
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297638
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297638
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297638
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297638
+9297637
+9297637
+9297638
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297638
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297638
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297638
+9297638
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297638
+9297637
+9297637
+9297637
+9297637
+9297638
+9297638
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637
+9297637

@@ -1,0 +1,726 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997719
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 12800 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.02
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 12800 points by 12 bits
+Time in sec for current matmul = 1.052
+512 => -16515548816
+[31mMatMul Output Mismatch[0m
+Relu #3 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.052
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.051
+Time in sec for current matmul = 0.03
+2844975376 => -56868109792
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #2 on 12800 points by 12 bits
+Time in sec for current matmul = 1.083
+512 => -51076613776
+[31mMatMul Output Mismatch[0m
+Relu #7 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.047
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.048
+Time in sec for current matmul = 0.021
+2356619580 => -34739154566
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #3 on 12800 points by 12 bits
+Time in sec for current matmul = 1.098
+512 => -44097291920
+[31mMatMul Output Mismatch[0m
+Relu #11 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.052
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.05
+Time in sec for current matmul = 0.025
+2197078916 => 24768836886
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Thread i = 0, total data sent till now = 41533457
+Thread i = 1, total data sent till now = 3043007
+Thread i = 2, total data sent till now = 2059695
+Thread i = 3, total data sent till now = 3043007
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 3909277 microseconds.
+Total data sent = 40.5337 MiB.
+Number of rounds = 2221
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 3.329 seconds.
+Total time in BatchNorm = 0.03 seconds.
+Total time in Truncation = 0.171 seconds.
+Total time in Relu = 0.157 seconds.
+Total time in MaxPool = 0.149 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 36.6718 MiB.
+BatchNorm data sent = 0.714396 MiB.
+Truncation data sent = 1.03885 MiB.
+Relu data sent = 1.0679 MiB.
+Maxpool data sent = 1.04077 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047080
+6047081
+6047081
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047081
+6047081
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047081
+6047081
+6047081
+6047080
+6047080
+6047081
+6047080
+6047080
+6047081
+6047080
+6047081
+6047080
+6047081
+6047081
+6047080
+6047080
+6047081
+6047080
+6047081
+6047081
+6047081
+6047081
+6047081
+6047080
+6047080
+6047080
+6047081
+6047081
+6047081
+6047080
+6047081
+6047080
+6047081
+6047081
+6047081
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047081
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047080
+6047081
+6047080
+6047080
+6047080
+6047081
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997782
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 12800 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.018
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 12800 points by 12 bits
+Time in sec for current matmul = 1.044
+512 => 67073517204
+[31mMatMul Output Mismatch[0m
+Relu #3 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.046
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.048
+Time in sec for current matmul = 0.03
+2470510652 => 27479270917
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #2 on 12800 points by 12 bits
+Time in sec for current matmul = 1.079
+512 => -50299885932
+[31mMatMul Output Mismatch[0m
+Relu #7 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.048
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.051
+Time in sec for current matmul = 0.024
+5542636774 => 63326535995
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #3 on 12800 points by 12 bits
+Time in sec for current matmul = 1.084
+512 => 40095753876
+[31mMatMul Output Mismatch[0m
+Relu #11 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.048
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.049
+Time in sec for current matmul = 0.018
+10510357108 => 1092925044
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Thread i = 0, total data sent till now = 41535159
+Thread i = 1, total data sent till now = 3043007
+Thread i = 2, total data sent till now = 2059695
+Thread i = 3, total data sent till now = 3043007
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 3856724 microseconds.
+Total data sent = 40.5353 MiB.
+Number of rounds = 2221
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 3.297 seconds.
+Total time in BatchNorm = 0.033 seconds.
+Total time in Truncation = 0.154 seconds.
+Total time in Relu = 0.148 seconds.
+Total time in MaxPool = 0.148 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 36.6733 MiB.
+BatchNorm data sent = 0.71447 MiB.
+Truncation data sent = 1.03885 MiB.
+Relu data sent = 1.0679 MiB.
+Maxpool data sent = 1.04077 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+266829
+266828
+266828
+266828
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266829
+266828
+266829
+266829
+266828
+266829
+266829
+266829
+266828
+266828
+266829
+266829
+266829
+266828
+266828
+266828
+266828
+266829
+266829
+266829
+266828
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266829
+266829
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266828
+266829
+266828
+266829
+266829
+266829
+266828
+266829
+266828
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266828
+266829
+266829
+266828
+266828
+266828
+266829
+266829
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266828
+266829
+266828
+266828
+266828
+266828
+266829
+266829
+266828
+266828
+266828
+266828
+266828
+266828
+266828
+266828
+266828
+266828
+266829
+266828
+266828
+266828
+266829
+266828
+266828
+266828
+266828
+266829
+266828
+266829
+266828
+266829
+266829
+266829
+266828
+266828
+266828
+266829
+266828
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266828
+266829
+266829
+266828
+266828
+266829
+266828
+266829
+266829
+266829
+266829
+266828
+266828
+266829
+266828
+266828
+266829
+266829
+266829
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266829
+266829
+266829
+266828
+266829
+266828
+266829
+266828
+266828
+266828
+266828
+266828
+266829
+266828
+266829
+266829
+266829
+266828
+266828
+266828
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266829
+266829
+266829
+266828
+266829
+266829
+266829
+266829
+266829
+266828
+266828
+266829
+266829
+266829
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266828
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266829
+266828
+266829
+266828
+266828
+266828
+266828
+266828
+266828
+266828
+266829
+266829
+266829
+266828
+266829
+266828
+266829
+266829
+266828
+266828
+266828

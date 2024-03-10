@@ -1,0 +1,204 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997769
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 6400 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #1 on 6400 points by 12 bits
+HomBN #2 via element-wise mult on 6400 points
+[31m2 ==> -22736093974[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 6400 points by 12 bits
+HomBN #3 via element-wise mult on 6400 points
+[31m2 ==> 35111746794[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #3 on 6400 points by 12 bits
+HomBN #4 via element-wise mult on 6400 points
+[31m2 ==> 56116821226[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #4 on 128 points by 12 bits
+Thread i = 0, total data sent till now = 3537733
+Thread i = 1, total data sent till now = 1946295
+Thread i = 2, total data sent till now = 1767987
+Thread i = 3, total data sent till now = 1946295
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 178121 microseconds.
+Total data sent = 1.92814 MiB.
+Number of rounds = 55
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.082 seconds.
+Total time in Truncation = 0.085 seconds.
+Total time in Relu = 0 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 1.42882 MiB.
+Truncation data sent = 0.499321 MiB.
+Relu data sent = 0 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+572332
+4021414
+-6193870
+-15188652
+11725875
+-9883778
+-13777899
+1965068
+5883321
+14915115
+-16583101
+-14409533
+-7951966
+-12848865
+-13852383
+-3246787
+-1252035
+14384983
+8255343
+-13514274
+-10627292
+-11372111
+-6984116
+14402182
+7143581
+1332741
+6030202
+-18639
+16652068
+12671447
+6949178
+-12859291
+-10741510
+-7264725
+2378452
+-3496576
+3099214
+1735900
+7674454
+-7551489
+4123192
+3470069
+13012273
+-8993246
+-2810224
+44785
+-6616272
+-8806080
+-13354907
+-467073
+-2129399
+4779477
+-545755
+11499143
+11978414
+-11776695
+11601892
+-9557410
+1109269
+4042603
+14419560
+1765826
+-6711299
+-6349072
+-3772112
+9426514
+-4610843
+8739747
+438666
+1368906
+4083254
+16276232
+-8734540
+5270419
+13772482
+-2886987
+5013604
+-6067891
+10232621
+10910909
+-15665979
+13697663
+-16113446
+-575263
+-7335493
+8667104
+5083107
+-12650379
+-13083808
+8495329
+4636794
+897887
+-3199344
+6803252
+-15135072
+15057989
+-16080613
+-12428212
+-12576447
+-3414302
+-9357939
+1198856
+-11860621
+8013372
+-5839610
+-2979269
+-11488969
+-5567558
+-15746763
+7306377
+3806427
+3884884
+692950
+-13936367
+5992650
+11746071
+-11445729
+-4106941
+7253728
+-201076
+-10872671
+4096225
+5746903
+-913462
+-16701938
+9110520
+-2768904
+-14246971

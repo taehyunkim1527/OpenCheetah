@@ -6,12 +6,12 @@ then
   echo "Usage: run-client.sh [cheetah|SCI_HE] [sqnet/resnet50]"
 else
   if ! contains "cheetah SCI_HE" $1; then
-    echo -e "Usage: run-client.sh ${RED}[cheetah|SCI_HE]${NC} [sqnet|resnet50|densenet121]"
+    echo -e "Usage: run-client.sh ${RED}[cheetah|SCI_HE]${NC} [sqnet|resnet50|densenet121|Lenet|vgg11]"
 	exit 1
   fi
 
-  if ! contains "sqnet resnet50 densenet121" $2; then
-    echo -e "Usage: run-client.sh [cheetah|SCI_HE] ${RED}[sqnet|resnet50|densenet121]${NC}"
+  if ! contains "sqnet resnet50 densenet121 Lenet vgg11" $2; then
+    echo -e "Usage: run-client.sh [cheetah|SCI_HE] ${RED}[sqnet|resnet50|densenet121|Lenet|vgg11]${NC}"
 	exit 1
   fi
   # create a data/ to store the Ferret output

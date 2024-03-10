@@ -1,0 +1,1304 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997788
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.038
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 2.259
+1026 => 36628871698
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.097
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.085
+Time in sec for current matmul = 0.042
+2931822592 => -1521208756
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.011
+Time in sec for current matmul = 0.044
+-1024 => 48845340280
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 2.268
+1026 => -20682098158
+[31mMatMul Output Mismatch[0m
+Relu #9 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.096
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.085
+Time in sec for current matmul = 0.049
+16652409542 => -30392473271
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.012
+Time in sec for current matmul = 0.043
+-1022 => -51136080541
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 2.298
+1026 => 34280061457
+[31mMatMul Output Mismatch[0m
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.102
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.084
+Time in sec for current matmul = 0.042
+4125860634 => 37977177828
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.012
+Time in sec for current matmul = 0.039
+9494295488 => -9771728201
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 2.281
+1026 => -66383234542
+[31mMatMul Output Mismatch[0m
+Relu #21 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.075
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.084
+Time in sec for current matmul = 0.037
+3567568520 => 55270720260
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.012
+Time in sec for current matmul = 0.041
+13817681120 => -63002045395
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.003
+Thread i = 0, total data sent till now = 108571938
+Thread i = 1, total data sent till now = 5249319
+Thread i = 2, total data sent till now = 2614967
+Thread i = 3, total data sent till now = 5249319
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 11143933 microseconds.
+Total data sent = 109.204 MiB.
+Number of rounds = 3027
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 9.481 seconds.
+Total time in BatchNorm = 0.051 seconds.
+Total time in Truncation = 0.453 seconds.
+Total time in Relu = 0.436 seconds.
+Total time in MaxPool = 0.338 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 99.5394 MiB.
+BatchNorm data sent = 1.25012 MiB.
+Truncation data sent = 2.77167 MiB.
+Relu data sent = 2.89767 MiB.
+Maxpool data sent = 2.74548 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997745
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.038
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 2.257
+1024 => -27279301259
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.084
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.087
+Time in sec for current matmul = 0.042
+4417181638 => -44047246656
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.012
+Time in sec for current matmul = 0.054
+-1024 => -11314598622
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 2.217
+1024 => -61706148490
+[31mMatMul Output Mismatch[0m
+Relu #9 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.081
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.084
+Time in sec for current matmul = 0.047
+3231547504 => 1872694482
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.013
+Time in sec for current matmul = 0.043
+468174658 => -24151445606
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 2.28
+1024 => 3322340726
+[31mMatMul Output Mismatch[0m
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.12
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.083
+Time in sec for current matmul = 0.042
+5261927494 => 42046404030
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.01
+Time in sec for current matmul = 0.043
+10511602016 => -13334616780
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 2.201
+1024 => -32379574922
+[31mMatMul Output Mismatch[0m
+Relu #21 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.08
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 0.085
+Time in sec for current matmul = 0.045
+4610557672 => 15387331073
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.011
+Time in sec for current matmul = 0.049
+3846833802 => 29968887320
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.004
+Thread i = 0, total data sent till now = 108571886
+Thread i = 1, total data sent till now = 5249319
+Thread i = 2, total data sent till now = 2614967
+Thread i = 3, total data sent till now = 5249319
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 10930132 microseconds.
+Total data sent = 109.204 MiB.
+Number of rounds = 3027
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 9.358 seconds.
+Total time in BatchNorm = 0.049 seconds.
+Total time in Truncation = 0.393 seconds.
+Total time in Relu = 0.431 seconds.
+Total time in MaxPool = 0.339 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 99.5394 MiB.
+BatchNorm data sent = 1.25012 MiB.
+Truncation data sent = 2.77167 MiB.
+Relu data sent = 2.89767 MiB.
+Maxpool data sent = 2.74548 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316623
+7316624
+7316624
+7316624
+7316623
+7316623
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316623
+7316623
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316623
+7316623
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316623
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316623
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316623
+7316623
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316623
+7316624
+7316623
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316623
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316623
+7316624
+7316624
+7316623
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624
+7316624

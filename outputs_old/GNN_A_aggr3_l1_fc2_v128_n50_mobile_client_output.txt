@@ -1,0 +1,428 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997749
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 6400 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.118
+512 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Truncate #1 on 6400 points by 12 bits
+Time in sec for current matmul = 6.026
+256 => 29010838554
+[31mMatMul Output Mismatch[0m
+Relu #3 on 6400 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.73
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.448
+Time in sec for current matmul = 0.121
+1335090604 => -60661492896
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Time in sec for current matmul = 0.121
+-256 => -38744923278
+[31mMatMul Output Mismatch[0m
+Relu #7 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Thread i = 0, total data sent till now = 9046769
+Thread i = 1, total data sent till now = 1949607
+Thread i = 2, total data sent till now = 1783391
+Thread i = 3, total data sent till now = 1949607
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 45432767 microseconds.
+Total data sent = 7.20299 MiB.
+Number of rounds = 771
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 6.386 seconds.
+Total time in BatchNorm = 0.25 seconds.
+Total time in Truncation = 1.44 seconds.
+Total time in Relu = 2.839 seconds.
+Total time in MaxPool = 34.448 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 6.31081 MiB.
+BatchNorm data sent = 0.357166 MiB.
+Truncation data sent = 0.17363 MiB.
+Relu data sent = 0.184189 MiB.
+Maxpool data sent = 0.1772 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997821
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 6400 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.12
+512 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Truncate #1 on 6400 points by 12 bits
+Time in sec for current matmul = 6.013
+256 => 4289497880
+[31mMatMul Output Mismatch[0m
+Relu #3 on 6400 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.73
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.453
+Time in sec for current matmul = 0.121
+1285215382 => 4087650128
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Time in sec for current matmul = 0.12
+255478398 => 55955996960
+[31mMatMul Output Mismatch[0m
+Relu #7 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.703
+Thread i = 0, total data sent till now = 9046582
+Thread i = 1, total data sent till now = 1949607
+Thread i = 2, total data sent till now = 1783391
+Thread i = 3, total data sent till now = 1949607
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 45433580 microseconds.
+Total data sent = 7.20274 MiB.
+Number of rounds = 771
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 6.374 seconds.
+Total time in BatchNorm = 0.251 seconds.
+Total time in Truncation = 1.439 seconds.
+Total time in Relu = 2.839 seconds.
+Total time in MaxPool = 34.453 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 6.31051 MiB.
+BatchNorm data sent = 0.357211 MiB.
+Truncation data sent = 0.17363 MiB.
+Relu data sent = 0.184189 MiB.
+Maxpool data sent = 0.1772 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661133
+13661134
+13661133
+13661133
+13661133
+13661133

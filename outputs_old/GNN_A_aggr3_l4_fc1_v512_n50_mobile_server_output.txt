@@ -1,0 +1,1256 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1748076
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+Time in sec for current matmul = 0.483
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.011
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 10.114
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.027
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.574
+Time in sec for current matmul = 0.251
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.104
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 10.226
+Relu #7 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.261
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.585
+Time in sec for current matmul = 0.252
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.102
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 10.167
+Relu #11 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.267
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.578
+Time in sec for current matmul = 0.253
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.102
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 10.179
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.261
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.581
+Time in sec for current matmul = 0.258
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.101
+Thread i = 0, total data sent till now = 78197491
+Thread i = 1, total data sent till now = 2608247
+Thread i = 2, total data sent till now = 5225255
+Thread i = 3, total data sent till now = 2608247
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 196632850 microseconds.
+Total data sent = 77.927 MiB.
+Number of rounds = 2955
+Total comm (sent+received) = 185.166 MiB.
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 42.183 seconds.
+Total time in BatchNorm = 0.212 seconds.
+Total time in Truncation = 5.316 seconds.
+Total time in Relu = 10.236 seconds.
+Total time in MaxPool = 138.318 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 48.2302 MiB.
+BatchNorm data sent = 1.15327 MiB.
+Truncation data sent = 2.76898 MiB.
+Relu data sent = 2.84164 MiB.
+Maxpool data sent = 2.74548 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+Conv data (sent+received) = 0 MiB.
+MatMul data (sent+received) = 145.863 MiB.
+BatchNorm data (sent+received) = 2.40349 MiB.
+Truncation data (sent+received) = 5.53796 MiB.
+Relu data (sent+received) = 5.68329 MiB.
+Maxpool data (sent+received) = 5.49097 MiB.
+Avgpool data (sent+received) = 0 MiB.
+ArgMax data (sent+received) = 0 MiB.
+MatAdd data (sent+received) = 0 MiB.
+MatAddBroadCast data (sent+received) = 0 MiB.
+MulCir data (sent+received) = 0 MiB.
+ScalarMul data (sent+received) = 0 MiB.
+Sigmoid data (sent+received) = 0 MiB.
+Tanh data (sent+received) = 0 MiB.
+Sqrt data (sent+received) = 0 MiB.
+NormaliseL2 data (sent+received) = 0 MiB.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1748076
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+Time in sec for current matmul = 0.489
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.01
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 10.124
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.933
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.575
+Time in sec for current matmul = 0.253
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.092
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 10.201
+Relu #7 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.256
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.577
+Time in sec for current matmul = 0.257
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.102
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 10.2
+Relu #11 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.265
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.582
+Time in sec for current matmul = 0.255
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.102
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 10.22
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.252
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 34.575
+Time in sec for current matmul = 0.253
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 1.101
+Thread i = 0, total data sent till now = 78197787
+Thread i = 1, total data sent till now = 2608247
+Thread i = 2, total data sent till now = 5225255
+Thread i = 3, total data sent till now = 2608247
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 196641093 microseconds.
+Total data sent = 77.9273 MiB.
+Number of rounds = 2955
+Total comm (sent+received) = 185.168 MiB.
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 42.252 seconds.
+Total time in BatchNorm = 0.214 seconds.
+Total time in Truncation = 5.303 seconds.
+Total time in Relu = 10.113 seconds.
+Total time in MaxPool = 138.309 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 48.2303 MiB.
+BatchNorm data sent = 1.15338 MiB.
+Truncation data sent = 2.76898 MiB.
+Relu data sent = 2.84164 MiB.
+Maxpool data sent = 2.74548 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+Conv data (sent+received) = 0 MiB.
+MatMul data (sent+received) = 145.865 MiB.
+BatchNorm data (sent+received) = 2.4036 MiB.
+Truncation data (sent+received) = 5.53796 MiB.
+Relu data (sent+received) = 5.68329 MiB.
+Maxpool data (sent+received) = 5.49097 MiB.
+Avgpool data (sent+received) = 0 MiB.
+ArgMax data (sent+received) = 0 MiB.
+MatAdd data (sent+received) = 0 MiB.
+MatAddBroadCast data (sent+received) = 0 MiB.
+MulCir data (sent+received) = 0 MiB.
+ScalarMul data (sent+received) = 0 MiB.
+Sigmoid data (sent+received) = 0 MiB.
+Tanh data (sent+received) = 0 MiB.
+Sqrt data (sent+received) = 0 MiB.
+NormaliseL2 data (sent+received) = 0 MiB.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0

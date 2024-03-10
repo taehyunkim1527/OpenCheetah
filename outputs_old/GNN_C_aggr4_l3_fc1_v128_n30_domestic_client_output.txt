@@ -1,0 +1,204 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997779
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 3840 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #1 on 3840 points by 12 bits
+HomBN #2 via element-wise mult on 3840 points
+[31m2 ==> -24691081220[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 3840 points by 12 bits
+HomBN #3 via element-wise mult on 3840 points
+[31m2 ==> -11470635012[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #3 on 3840 points by 12 bits
+HomBN #4 via element-wise mult on 3840 points
+[31m2 ==> 58523910140[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #4 on 128 points by 12 bits
+Thread i = 0, total data sent till now = 2772160
+Thread i = 1, total data sent till now = 1858935
+Thread i = 2, total data sent till now = 1751427
+Thread i = 3, total data sent till now = 1858935
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 725239 microseconds.
+Total data sent = 1.0156 MiB.
+Number of rounds = 55
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.151 seconds.
+Total time in Truncation = 0.551 seconds.
+Total time in Relu = 0 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 0.714494 MiB.
+Truncation data sent = 0.301109 MiB.
+Relu data sent = 0 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-3321240
+4262993
+-9243209
+8464724
+10123496
+-4850718
+-12313156
+-10345150
+14359701
+13792512
+-13971329
+4974130
+9772105
+12993470
+-3763138
+-8247727
+14075203
+-11806137
+-1006424
+-13816003
+-11846169
+10920994
+-12102590
+-6532938
+-14329795
+1505396
+-11167409
+6165026
+-8820352
+8067517
+11814311
+-1942237
+1927654
+1774510
+-2498919
+12140781
+2270252
+8152157
+6529499
+1685541
+7678664
+-6242453
+9977989
+4678303
+-13834704
+7953594
+-12240312
+6171118
+16040744
+-12237415
+-8288366
+11129655
+3861143
+2049193
+6415755
+15134818
+14613963
+3647270
+8541144
+3139421
+8726488
+-12750483
+11213371
+12184264
+-2972529
+-15221544
+11988095
+3358958
+-6580291
+15019096
+12434960
+-13559845
+-11655000
+-5054872
+-12229079
+-12325346
+15612362
+-2408739
+-10926683
+-12517529
+5599949
+9587429
+-6313058
+5214628
+-2306419
+-13208035
+-12272968
+-6655304
+-6954329
+-8129945
+-9787321
+-2139485
+11474643
+-5083422
+-13383630
+-3925848
+8619416
+1276129
+10392013
+14229486
+-11393294
+1214243
+14692459
+12882789
+7495768
+11996634
+1489158
+-8857600
+-15462443
+-5886888
+14433481
+4086215
+7249031
+582214
+-4483291
+-11197889
+8064152
+-3739981
+-2948746
+10596550
+-15773126
+-7589363
+10111941
+13640211
+-10150318
+-15889145
+-7902683
+-5259434

@@ -48,3 +48,42 @@ endmacro()
 add_network_cheetah(resnet50)
 add_network_cheetah(sqnet)
 add_network_cheetah(densenet121)
+add_network_cheetah(Lenet)
+add_network_cheetah(vgg11)
+
+# A: a whole model
+# B: target's h_0
+# C: aggregation1
+# D: aggregation2
+
+# _aggr[1-6]: sum/average/max/weighted sum/edge-innerproduct sum/gat
+# _l[1-4]: the number of GNN layers
+# _fc[1-2]: the number of fully connected layers per a GNN layer
+# _v[128|256|512]: the size of hidden vectors
+# _n[3|5|10|30|50|100]: the number of neighbors
+
+macro (add_network_GNNcheetah _name)
+  add_executable(${_name}-cheetah "networks/${_name}.cpp")
+  target_link_libraries(${_name}-cheetah gemini SCI-Cheetah)
+  target_compile_definitions(${_name}-cheetah PUBLIC SCI_OT=1 USE_CHEETAH=1)
+endmacro()
+set(list1 A B C D E)
+set(list2 1 2 3 4 5 6)
+set(list3 1 2 3 4)
+set(list4 1 2)
+set(list5 128 256 512)
+set(list6 3 5 10 20 30 50 55 100 200)
+foreach(V1 ${list1})
+  foreach(V2 ${list2})
+    foreach(V3 ${list3})
+      foreach(V4 ${list4})
+        foreach(V5 ${list5})
+          foreach(V6 ${list6})
+            message("add_network_GNNcheetah(GNN_${V1}_aggr${V2}_l${V3}_fc${V4}_v${V5}_n${V6})")
+            add_network_GNNcheetah(GNN_${V1}_aggr${V2}_l${V3}_fc${V4}_v${V5}_n${V6})
+          endforeach()
+        endforeach()
+      endforeach() 
+    endforeach()
+  endforeach()
+endforeach()

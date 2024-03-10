@@ -1,0 +1,418 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997831
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 6400 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.038
+512 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.143
+Truncate #1 on 6400 points by 12 bits
+Time in sec for current matmul = 1.91
+256 => -47994489751
+[31mMatMul Output Mismatch[0m
+Relu #3 on 6400 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.169
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 7.013
+Time in sec for current matmul = 0.04
+1433665110 => 51671102913
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.143
+Thread i = 0, total data sent till now = 8921701
+Thread i = 1, total data sent till now = 1948043
+Thread i = 2, total data sent till now = 1782947
+Thread i = 3, total data sent till now = 1948043
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 9817242 microseconds.
+Total data sent = 7.08023 MiB.
+Number of rounds = 753
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 1.988 seconds.
+Total time in BatchNorm = 0.068 seconds.
+Total time in Truncation = 0.272 seconds.
+Total time in Relu = 0.455 seconds.
+Total time in MaxPool = 7.013 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 6.19185 MiB.
+BatchNorm data sent = 0.357197 MiB.
+Truncation data sent = 0.173416 MiB.
+Relu data sent = 0.180573 MiB.
+Maxpool data sent = 0.1772 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+12615017
+12615017
+12615016
+12615017
+12615016
+12615017
+12615016
+12615017
+12615017
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615017
+12615017
+12615016
+12615016
+12615016
+12615017
+12615017
+12615017
+12615016
+12615017
+12615016
+12615017
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615017
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615017
+12615017
+12615016
+12615016
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615017
+12615016
+12615017
+12615017
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615017
+12615017
+12615016
+12615016
+12615016
+12615016
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615017
+12615017
+12615017
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615017
+12615016
+12615016
+12615016
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997707
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 6400 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.038
+512 => -1
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.143
+Truncate #1 on 6400 points by 12 bits
+Time in sec for current matmul = 1.928
+256 => 20022518402
+[31mMatMul Output Mismatch[0m
+Relu #3 on 6400 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.165
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=50
+Time in sec for current maxpool = 7.02
+Time in sec for current matmul = 0.044
+1115076260 => 2026122304
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.143
+Thread i = 0, total data sent till now = 8921345
+Thread i = 1, total data sent till now = 1948043
+Thread i = 2, total data sent till now = 1782947
+Thread i = 3, total data sent till now = 1948043
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 9848890 microseconds.
+Total data sent = 7.08001 MiB.
+Number of rounds = 753
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 2.01 seconds.
+Total time in BatchNorm = 0.069 seconds.
+Total time in Truncation = 0.277 seconds.
+Total time in Relu = 0.451 seconds.
+Total time in MaxPool = 7.02 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 6.19157 MiB.
+BatchNorm data sent = 0.357253 MiB.
+Truncation data sent = 0.173416 MiB.
+Relu data sent = 0.180573 MiB.
+Maxpool data sent = 0.1772 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+494659
+494659
+494660
+494660
+494659
+494660
+494660
+494659
+494659
+494660
+494659
+494660
+494660
+494660
+494659
+494660
+494660
+494660
+494659
+494660
+494660
+494660
+494660
+494659
+494659
+494660
+494660
+494660
+494659
+494660
+494659
+494660
+494660
+494660
+494660
+494659
+494660
+494660
+494659
+494660
+494660
+494659
+494660
+494660
+494660
+494660
+494659
+494660
+494660
+494659
+494660
+494659
+494660
+494659
+494660
+494660
+494660
+494659
+494660
+494660
+494660
+494660
+494660
+494660
+494659
+494659
+494659
+494660
+494659
+494660
+494660
+494659
+494659
+494660
+494660
+494660
+494660
+494660
+494659
+494660
+494660
+494659
+494660
+494660
+494660
+494659
+494659
+494660
+494659
+494660
+494660
+494660
+494660
+494660
+494659
+494660
+494659
+494660
+494660
+494659
+494660
+494659
+494660
+494660
+494660
+494660
+494660
+494659
+494660
+494660
+494660
+494660
+494660
+494660
+494660
+494659
+494659
+494660
+494660
+494660
+494660
+494660
+494660
+494660
+494660
+494660
+494660
+494660

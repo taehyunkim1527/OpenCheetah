@@ -1,0 +1,198 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997772
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 3840 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Relu #1 on 128 points, truncate=0 by 0 bits
+Time in sec for current relu = 0.703
+Truncate #1 on 3840 points by 12 bits
+HomBN #2 via element-wise mult on 3840 points
+[31m4 ==> -21041981854[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 128 points by 12 bits
+Thread i = 0, total data sent till now = 2381288
+Thread i = 1, total data sent till now = 1772939
+Thread i = 2, total data sent till now = 1735271
+Thread i = 3, total data sent till now = 1772939
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 2291918 microseconds.
+Total data sent = 0.463413 MiB.
+Number of rounds = 39
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.263 seconds.
+Total time in Truncation = 1.229 seconds.
+Total time in Relu = 0.703 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 0.357143 MiB.
+Truncation data sent = 0.102654 MiB.
+Relu data sent = 0.00361633 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+4293912
+-14209255
+10320563
+-7022538
+6310779
+-6094221
+-15127006
+101197
+-5280879
+9684565
+-1342023
+971483
+14853894
+-15808467
+-16738810
+-15435291
+9316127
+11980728
+6289564
+6450408
+-15806088
+-13632058
+4600405
+8466512
+-8618979
+14481063
+1785663
+-12298143
+-13357093
+10834855
+12330885
+15891077
+-8385414
+-6406053
+-11874759
+-7287248
+6520136
+16088714
+13185146
+11233834
+-13592389
+-3676792
+-7937807
+-400992
+-4824338
+16025616
+-3012905
+3557227
+-893433
+9119367
+1025553
+-4347408
+-12639351
+15703912
+-1356624
+-7398489
+16462898
+-1809871
+-5315013
+5392891
+-16301707
+-7819411
+8853232
+-15133125
+-5649503
+-10092090
+9070633
+-8608492
+10617353
+7818897
+2445069
+-9670035
+10285727
+-1660082
+7606697
+-9641462
+1941568
+-10437009
+-12978862
+-7887347
+10139169
+-13848149
+-9196425
+14363050
+4576706
+-10159801
+755597
+3530360
+318461
+8927978
+-11400453
+-10094104
+-10815389
+-7316874
+3768773
+-1973423
+-6220220
+-7241625
+10556275
+-11453159
+-2640908
+8629754
+-1065769
+13063962
+-4745337
+-14392905
+13626922
+-6828659
+3562265
+-199296
+-13663063
+2760026
+15126672
+5859739
+-12279523
+13528861
+-4834379
+2221881
+-3624624
+-3429918
+-4622216
+-12230722
+-3619055
+1527580
+-15418715
+1227809
+-15577559
+3199293

@@ -1,0 +1,208 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997744
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 128 points
+[31m40 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #1 on 128 points by 12 bits
+HomBN #2 via element-wise mult on 128 points
+[31m38 ==> 6672425278[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 128 points by 12 bits
+HomBN #3 via element-wise mult on 128 points
+[31m38 ==> -47954190018[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #3 on 128 points by 12 bits
+HomBN #4 via element-wise mult on 128 points
+[31m38 ==> -38760275650[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #4 on 128 points by 12 bits
+HomBN #5 via element-wise mult on 128 points
+[31m38 ==> -44598746818[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #5 on 128 points by 12 bits
+Thread i = 0, total data sent till now = 2935395
+Thread i = 1, total data sent till now = 1733767
+Thread i = 2, total data sent till now = 1727707
+Thread i = 3, total data sent till now = 1733767
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 65972 microseconds.
+Total data sent = 0.909949 MiB.
+Number of rounds = 69
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.055 seconds.
+Total time in Truncation = 0.005 seconds.
+Total time in Relu = 0 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 0.892821 MiB.
+Truncation data sent = 0.017128 MiB.
+Relu data sent = 0 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-10888365
+-2456860
+-2162277
+8403229
+-2717653
+13548303
+15248821
+-8789836
+-5257726
+15637859
+2420042
+-3074683
+541476
+9994
+4980889
+-6929647
+6620996
+16687623
+-7043327
+-16744228
+-7970801
+7835956
+-12465585
+-4648311
+13859613
+-571468
+-103815
+-16375901
+-5857450
+-16724111
+2814602
+13773306
+8703168
+-11242216
+-4378774
+16531081
+-10698368
+-13353310
+2018185
+5384266
+19542
+7585383
+9790611
+562418
+3955237
+-5675217
+14145622
+14630237
+-6244277
+14435617
+-4835260
+1782157
+10448710
+9662622
+1006221
+-15913855
+7752142
+14784444
+-8946313
+-8644596
+-3441760
+7314702
+2048564
+497562
+4020337
+5681695
+5046524
+6735352
+-3294587
+9679283
+7264641
+-12380442
+-96568
+-822406
+-3700005
+3312172
+12890051
+-15312231
+2048601
+-10162906
+2673041
+-16017818
+-2775188
+-8004565
+-6685532
+2404214
+-14996491
+16041242
+5212965
+-10039389
+-4829057
+-10549884
+-11917845
+-12132309
+10782972
+12372041
+150323
+3194759
+7929834
+11501432
+-6764554
+-5318084
+-7817970
+6406718
+-16627305
+-8105122
+-15319859
+-10535252
+5576229
+11955811
+-16592045
+4229914
+-7861161
+-742422
+-12710696
+2031017
+6489250
+7389793
+5155126
+-11639826
+4407672
+4690561
+-157032
+518565
+7926097
+-16162374
+-6364103
+-414914

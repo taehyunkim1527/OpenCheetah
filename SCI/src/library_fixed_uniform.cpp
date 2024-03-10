@@ -1564,8 +1564,8 @@ void StartComputation() {
 
 void EndComputation() {
   auto endTimer = std::chrono::high_resolution_clock::now();
-  auto execTimeInMilliSec =
-      std::chrono::duration_cast<std::chrono::milliseconds>(endTimer -
+  auto execTimeInMicroSec =
+      std::chrono::duration_cast<std::chrono::microseconds>(endTimer -
                                                             start_time)
           .count();
   uint64_t totalComm = 0;
@@ -1579,8 +1579,8 @@ void EndComputation() {
   std::cout << "------------------------------------------------------\n";
   std::cout << "------------------------------------------------------\n";
   std::cout << "------------------------------------------------------\n";
-  std::cout << "Total time taken = " << execTimeInMilliSec
-            << " milliseconds.\n";
+  std::cout << "Total time taken = " << execTimeInMicroSec
+            << " microseconds.\n";
   std::cout << "Total data sent = " << (totalComm / (1.0 * (1ULL << 20)))
             << " MiB." << std::endl;
   std::cout << "Number of rounds = " << ioArr[0]->num_rounds - num_rounds
@@ -1790,7 +1790,7 @@ void EndComputation() {
     }
     result << (isNativeRing ? "Ring" : "Field") << "," << bitlength << ","
            << MILL_PARAM << "," << num_threads << ","
-           << execTimeInMilliSec / 1000.0 << ","
+           << execTimeInMicroSec / 1000.0 << ","
            << (totalComm + totalCommClient) / (1.0 * (1ULL << 20)) << ","
            << ConvTimeInMilliSec / 1000.0 << ","
            << (ConvCommSent + ConvCommSentClient) / (1.0 * (1ULL << 20)) << ","

@@ -1,0 +1,204 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997738
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 128 points
+[31m200 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #1 on 128 points by 12 bits
+HomBN #2 via element-wise mult on 128 points
+[31m198 ==> -54048636070[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 128 points by 12 bits
+HomBN #3 via element-wise mult on 128 points
+[31m198 ==> -54719724710[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #3 on 128 points by 12 bits
+HomBN #4 via element-wise mult on 128 points
+[31m198 ==> 16482779994[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #4 on 128 points by 12 bits
+Thread i = 0, total data sent till now = 2747896
+Thread i = 1, total data sent till now = 1732263
+Thread i = 2, total data sent till now = 1727415
+Thread i = 3, total data sent till now = 1732263
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 1193140 microseconds.
+Total data sent = 0.727995 MiB.
+Number of rounds = 55
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.218 seconds.
+Total time in Truncation = 0.972 seconds.
+Total time in Relu = 0 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 0.714293 MiB.
+Truncation data sent = 0.0137024 MiB.
+Relu data sent = 0 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+4024118
+13124420
+10173480
+1811908
+-7247208
+3473480
+3057380
+-5999534
+7503495
+7598618
+-1895393
+-12420082
+-9205068
+-2633145
+11649667
+-12776407
+-7296936
+4707198
+9630902
+-15111901
+1667521
+1756465
+-3718639
+6072300
+-1003373
+-7851597
+12773408
+8691702
+-1682349
+8079507
+9860856
+-8691695
+8955565
+-3829273
+9298918
+-14837715
+-9218935
+-5661585
+16174031
+3814886
+4559629
+-5629102
+-1042498
+-8515949
+10599123
+-12863552
+-710637
+-10161806
+13651758
+-12374583
+16080856
+-11421412
+5308013
+5154522
+3847666
+15245143
+10763384
+10547993
+-13414241
+-15313206
+4229622
+2808528
+5762757
+-4054401
+-3822966
+-4248215
+-15519570
+-11840521
+3971590
+-4112432
+8937618
+7404210
+-15606860
+-13705216
+8987621
+16436310
+-8410224
+-10102781
+8259257
+9792518
+-6462718
+-15137430
+-9571058
+-13342584
+14753667
+-6218438
+-12435127
+2888350
+-9364059
+15053533
+-4645729
+-5024500
+-4637470
+-12618122
+6039854
+6097221
+-9863831
+12769851
+-1848138
+12766918
+4916093
+-15948961
+13416771
+-14208877
+9026134
+-9279138
+7595168
+-15546100
+8115537
+-9365240
+-9544761
+8586887
+-7606047
+-8949429
+-10195480
+4609998
+-7996641
+3779905
+-12325004
+-4806016
+4107942
+-12376479
+-11096962
+-10983875
+7697172
+-821965
+10169149
+-11487628

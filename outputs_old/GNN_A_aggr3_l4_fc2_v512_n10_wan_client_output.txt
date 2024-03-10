@@ -1,0 +1,1304 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997766
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 5120 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.093
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.286
+Truncate #1 on 5120 points by 12 bits
+Time in sec for current matmul = 0.908
+1024 => -51556685522
+[31mMatMul Output Mismatch[0m
+Relu #3 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.299
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.571
+Time in sec for current matmul = 0.095
+5734680948 => -44276953554
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.098
+-1024 => 40587076400
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #2 on 5120 points by 12 bits
+Time in sec for current matmul = 0.906
+1024 => -41154811602
+[31mMatMul Output Mismatch[0m
+Relu #9 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.306
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.569
+Time in sec for current matmul = 0.09
+14852821214 => -3633573558
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.09
+-1022 => 1429011048
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #3 on 5120 points by 12 bits
+Time in sec for current matmul = 0.912
+1024 => -27129059026
+[31mMatMul Output Mismatch[0m
+Relu #15 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.3
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.573
+Time in sec for current matmul = 0.094
+1623728138 => -38960502784
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.096
+-1024 => 39446444782
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #4 on 5120 points by 12 bits
+Time in sec for current matmul = 0.91
+1024 => 41389091118
+[31mMatMul Output Mismatch[0m
+Relu #21 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.306
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.567
+Time in sec for current matmul = 0.096
+12094226778 => 44753577852
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.289
+Time in sec for current matmul = 0.095
+11188395482 => 43631648352
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Thread i = 0, total data sent till now = 27027843
+Thread i = 1, total data sent till now = 2456359
+Thread i = 2, total data sent till now = 1910967
+Thread i = 3, total data sent till now = 2456359
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 21601964 microseconds.
+Total data sent = 25.4393 MiB.
+Number of rounds = 787
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 4.483 seconds.
+Total time in BatchNorm = 0.102 seconds.
+Total time in Truncation = 2.126 seconds.
+Total time in Relu = 3.796 seconds.
+Total time in MaxPool = 10.28 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 23.3371 MiB.
+BatchNorm data sent = 0.357291 MiB.
+Truncation data sent = 0.559753 MiB.
+Relu data sent = 0.680878 MiB.
+Maxpool data sent = 0.504272 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652258
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652258
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652258
+10652259
+10652259
+10652259
+10652258
+10652259
+10652258
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652258
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652258
+10652258
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652258
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+10652259
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997745
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 5120 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.088
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #1 on 5120 points by 12 bits
+Time in sec for current matmul = 0.896
+1026 => -44909081872
+[31mMatMul Output Mismatch[0m
+Relu #3 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.299
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.573
+Time in sec for current matmul = 0.096
+6 => 46374352970
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.094
+11593589222 => -63628076684
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #2 on 5120 points by 12 bits
+Time in sec for current matmul = 0.925
+1026 => 52801424112
+[31mMatMul Output Mismatch[0m
+Relu #9 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.298
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.577
+Time in sec for current matmul = 0.099
+5732352884 => -57051351152
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.096
+-1024 => 42062220606
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #3 on 5120 points by 12 bits
+Time in sec for current matmul = 0.9
+1026 => 25488116464
+[31mMatMul Output Mismatch[0m
+Relu #15 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.304
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.569
+Time in sec for current matmul = 0.097
+14777530346 => 47739545034
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.098
+11934887278 => -7048324436
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #4 on 5120 points by 12 bits
+Time in sec for current matmul = 0.919
+1026 => 58707004144
+[31mMatMul Output Mismatch[0m
+Relu #21 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.302
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.572
+Time in sec for current matmul = 0.098
+4531577122 => 24483860836
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.29
+Time in sec for current matmul = 0.099
+6120966238 => 14461116120
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Thread i = 0, total data sent till now = 27027579
+Thread i = 1, total data sent till now = 2456359
+Thread i = 2, total data sent till now = 1910967
+Thread i = 3, total data sent till now = 2456359
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 21751955 microseconds.
+Total data sent = 25.4391 MiB.
+Number of rounds = 787
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 4.505 seconds.
+Total time in BatchNorm = 0.101 seconds.
+Total time in Truncation = 2.126 seconds.
+Total time in Relu = 3.788 seconds.
+Total time in MaxPool = 10.291 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 23.337 MiB.
+BatchNorm data sent = 0.357116 MiB.
+Truncation data sent = 0.559753 MiB.
+Relu data sent = 0.680878 MiB.
+Maxpool data sent = 0.504272 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530546
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547
+3530547

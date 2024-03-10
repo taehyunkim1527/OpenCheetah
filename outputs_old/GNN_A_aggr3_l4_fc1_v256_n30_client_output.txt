@@ -1,0 +1,752 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997759
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 7680 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.019
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 7680 points by 12 bits
+Time in sec for current matmul = 0.593
+512 => 58521678138
+[31mMatMul Output Mismatch[0m
+Relu #3 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.033
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.03
+Time in sec for current matmul = 0.021
+1481497866 => -28444071072
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #2 on 7680 points by 12 bits
+Time in sec for current matmul = 0.652
+512 => 59930964282
+[31mMatMul Output Mismatch[0m
+Relu #7 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.04
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.031
+Time in sec for current matmul = 0.03
+1704760148 => 38438056300
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #3 on 7680 points by 12 bits
+Time in sec for current matmul = 0.651
+512 => -28182974150
+[31mMatMul Output Mismatch[0m
+Relu #11 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.03
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.045
+Time in sec for current matmul = 0.021
+6697623136 => 55090447900
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #4 on 7680 points by 12 bits
+Time in sec for current matmul = 0.657
+512 => -42074508998
+[31mMatMul Output Mismatch[0m
+Relu #15 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.047
+Maxpool 4 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.033
+Time in sec for current matmul = 0.019
+9265058560 => -989424072
+[31mMatMul Output Mismatch[0m
+Relu #17 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Thread i = 0, total data sent till now = 33851644
+Thread i = 1, total data sent till now = 2780751
+Thread i = 2, total data sent till now = 1993279
+Thread i = 3, total data sent till now = 2780751
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 3191826 microseconds.
+Total data sent = 32.6442 MiB.
+Number of rounds = 1835
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 2.663 seconds.
+Total time in BatchNorm = 0.018 seconds.
+Total time in Truncation = 0.131 seconds.
+Total time in Relu = 0.158 seconds.
+Total time in MaxPool = 0.139 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 29.7664 MiB.
+BatchNorm data sent = 0.357139 MiB.
+Truncation data sent = 0.832031 MiB.
+Relu data sent = 0.86731 MiB.
+Maxpool data sent = 0.821289 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997771
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 7680 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.019
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 7680 points by 12 bits
+Time in sec for current matmul = 0.568
+512 => 54639547920
+[31mMatMul Output Mismatch[0m
+Relu #3 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.037
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.032
+Time in sec for current matmul = 0.021
+2758923628 => -45533090750
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #2 on 7680 points by 12 bits
+Time in sec for current matmul = 0.648
+512 => -11462683120
+[31mMatMul Output Mismatch[0m
+Relu #7 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.034
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.032
+Time in sec for current matmul = 0.028
+2911347394 => -35129398520
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #3 on 7680 points by 12 bits
+Time in sec for current matmul = 0.656
+512 => 23232599568
+[31mMatMul Output Mismatch[0m
+Relu #11 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.042
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.032
+Time in sec for current matmul = 0.025
+2956382962 => 21669065144
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #4 on 7680 points by 12 bits
+Time in sec for current matmul = 0.654
+512 => 9945044496
+[31mMatMul Output Mismatch[0m
+Relu #15 on 7680 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.032
+Maxpool 4 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=30
+Time in sec for current maxpool = 0.03
+Time in sec for current matmul = 0.026
+4860061648 => 21873417838
+[31mMatMul Output Mismatch[0m
+Relu #17 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Thread i = 0, total data sent till now = 33852231
+Thread i = 1, total data sent till now = 2780751
+Thread i = 2, total data sent till now = 1993279
+Thread i = 3, total data sent till now = 2780751
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 3139839 microseconds.
+Total data sent = 32.6447 MiB.
+Number of rounds = 1835
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 2.645 seconds.
+Total time in BatchNorm = 0.018 seconds.
+Total time in Truncation = 0.132 seconds.
+Total time in Relu = 0.155 seconds.
+Total time in MaxPool = 0.126 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 29.7669 MiB.
+BatchNorm data sent = 0.357197 MiB.
+Truncation data sent = 0.832031 MiB.
+Relu data sent = 0.86731 MiB.
+Maxpool data sent = 0.821289 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340190
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340190
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340190
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340191
+5340190
+5340191

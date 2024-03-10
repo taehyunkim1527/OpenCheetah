@@ -1,0 +1,1304 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997830
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 51200 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.09
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #1 on 51200 points by 12 bits
+Time in sec for current matmul = 9.121
+1024 => -9757598622
+[31mMatMul Output Mismatch[0m
+Relu #3 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.433
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.275
+Time in sec for current matmul = 0.172
+3808465570 => 7485752716
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Time in sec for current matmul = 0.09
+1871439220 => -854414528
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #2 on 51200 points by 12 bits
+Time in sec for current matmul = 9.086
+1024 => 7623597154
+[31mMatMul Output Mismatch[0m
+Relu #9 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.433
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.271
+Time in sec for current matmul = 0.172
+5555975924 => 6370831140
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Time in sec for current matmul = 0.096
+1592708788 => -50076129134
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #3 on 51200 points by 12 bits
+Time in sec for current matmul = 9.118
+1024 => 52519427170
+[31mMatMul Output Mismatch[0m
+Relu #15 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.455
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.267
+Time in sec for current matmul = 0.171
+4771019242 => 12651780778
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Time in sec for current matmul = 0.098
+3162946222 => -48601717934
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.286
+Truncate #4 on 51200 points by 12 bits
+Time in sec for current matmul = 9.091
+1024 => 59297422434
+[31mMatMul Output Mismatch[0m
+Relu #21 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.421
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.323
+Time in sec for current matmul = 0.174
+4785094568 => -30480715890
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Time in sec for current matmul = 0.09
+-1024 => 55715055756
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Thread i = 0, total data sent till now = 210455995
+Thread i = 1, total data sent till now = 8740519
+Thread i = 2, total data sent till now = 3494967
+Thread i = 3, total data sent till now = 8740519
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 159160689 microseconds.
+Total data sent = 213.867 MiB.
+Number of rounds = 5827
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 37.569 seconds.
+Total time in BatchNorm = 0.265 seconds.
+Total time in Truncation = 2.752 seconds.
+Total time in Relu = 4.35 seconds.
+Total time in MaxPool = 113.136 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 194.793 MiB.
+BatchNorm data sent = 2.32181 MiB.
+Truncation data sent = 5.53656 MiB.
+Relu data sent = 5.66867 MiB.
+Maxpool data sent = 5.547 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602310
+13602310
+13602309
+13602309
+13602310
+13602309
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+13602309
+13602310
+13602309
+13602309
+13602309
+13602310
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602309
+13602309
+13602309
+13602309
+13602310
+13602310
+13602309
+13602310
+13602310
+13602310
+13602310
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997763
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 51200 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.086
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #1 on 51200 points by 12 bits
+Time in sec for current matmul = 9.054
+1024 => -22109378324
+[31mMatMul Output Mismatch[0m
+Relu #3 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.425
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.295
+Time in sec for current matmul = 0.172
+4003614570 => 3574038476
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Time in sec for current matmul = 0.097
+893510646 => 66259388790
+[31mMatMul Output Mismatch[0m
+Relu #7 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #2 on 51200 points by 12 bits
+Time in sec for current matmul = 9.07
+1024 => 29497338092
+[31mMatMul Output Mismatch[0m
+Relu #9 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.433
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.262
+Time in sec for current matmul = 0.171
+21657272834 => -934252444
+[31mMatMul Output Mismatch[0m
+Relu #11 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Time in sec for current matmul = 0.094
+-1024 => -5294430190
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #3 on 51200 points by 12 bits
+Time in sec for current matmul = 9.063
+1024 => 8962025708
+[31mMatMul Output Mismatch[0m
+Relu #15 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.433
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.268
+Time in sec for current matmul = 0.175
+5455879890 => -32600449136
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Time in sec for current matmul = 0.091
+-1022 => 44883800494
+[31mMatMul Output Mismatch[0m
+Relu #19 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Truncate #4 on 51200 points by 12 bits
+Time in sec for current matmul = 9.06
+1024 => 841853164
+[31mMatMul Output Mismatch[0m
+Relu #21 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.524
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.269
+Time in sec for current matmul = 0.172
+16691096710 => 40661593363
+[31mMatMul Output Mismatch[0m
+Relu #23 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Time in sec for current matmul = 0.098
+10165399358 => -13403806466
+[31mMatMul Output Mismatch[0m
+Relu #25 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.285
+Thread i = 0, total data sent till now = 210455231
+Thread i = 1, total data sent till now = 8740519
+Thread i = 2, total data sent till now = 3494967
+Thread i = 3, total data sent till now = 8740519
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 159075529 microseconds.
+Total data sent = 213.866 MiB.
+Number of rounds = 5827
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 37.403 seconds.
+Total time in BatchNorm = 0.264 seconds.
+Total time in Truncation = 2.749 seconds.
+Total time in Relu = 4.422 seconds.
+Total time in MaxPool = 113.094 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 194.792 MiB.
+BatchNorm data sent = 2.32173 MiB.
+Truncation data sent = 5.53656 MiB.
+Relu data sent = 5.66867 MiB.
+Maxpool data sent = 5.547 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1

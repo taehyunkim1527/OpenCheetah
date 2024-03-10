@@ -1,0 +1,326 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997700
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 7680 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Relu #1 on 256 points, truncate=0 by 0 bits
+Time in sec for current relu = 0.284
+Truncate #1 on 7680 points by 12 bits
+HomBN #2 via element-wise mult on 7680 points
+[31m4 ==> 50540713064[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Truncate #2 on 256 points by 12 bits
+Thread i = 0, total data sent till now = 2764790
+Thread i = 1, total data sent till now = 1819487
+Thread i = 2, total data sent till now = 1744231
+Thread i = 3, total data sent till now = 1819487
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 985122 microseconds.
+Total data sent = 0.926546 MiB.
+Number of rounds = 39
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0 seconds.
+Total time in BatchNorm = 0.173 seconds.
+Total time in Truncation = 0.525 seconds.
+Total time in Relu = 0.284 seconds.
+Total time in MaxPool = 0 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 0 MiB.
+BatchNorm data sent = 0.714403 MiB.
+Truncation data sent = 0.205063 MiB.
+Relu data sent = 0.00708008 MiB.
+Maxpool data sent = 0 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+11160188
+3616569
+-5914737
+7223894
+-15844691
+-4648634
+8633838
+-16574898
+-12442385
+8190351
+15260830
+14790966
+-9241088
+-13511383
+-16458428
+-1698523
+-14858978
+-587577
+-3975355
+-11202500
+-284395
+-12245071
+-12747294
+-10040078
+-16403024
+-8428625
+-11033521
+-6341096
+1109174
+-16101677
+-15656138
+-8343124
+7406989
+4838102
+-5362558
+-5603146
+1719993
+-866568
+-11374773
+-10184747
+-5641521
+12875666
+-6443548
+-5257798
+1850309
+4475529
+15892980
+4910947
+3154133
+7100679
+3814455
+-4701463
+12799867
+-1756217
+-14278887
+5477906
+-3079854
+-1139847
+10686322
+-9570158
+-9544183
+-12217643
+12662799
+-15259989
+-2290635
+-6622537
+11617592
+277047
+-2558855
+11963032
+990675
+-10779108
+-6494384
+-11628499
+8602895
+-5706239
+-7297396
+-6593098
+-2331417
+-11628065
+-12703243
+15675536
+7179830
+-615443
+2037913
+-14397071
+-7862299
+-14344693
+3084193
+2612046
+13268900
+-11314577
+3032657
+-15294799
+-13225860
+728922
+-9761500
+-6691108
+2548661
+15760663
+15679189
+3126417
+7443954
+5717104
+5942318
+10581671
+9457069
+-10461417
+-7091062
+-9531938
+-9424488
+-12522685
+-3572573
+-16773994
+5326173
+13017547
+-15121676
+-7561397
+-4689420
+9345031
+14164149
+1072460
+7081367
+-10052100
+-1333636
+12141955
+-11739538
+-1586966
+89574
+-3133088
+-13332298
+-1673243
+13813443
+11991790
+-8148045
+16009558
+1439247
+-5002794
+1746395
+9432258
+11792290
+11606564
+-443687
+-2238124
+8591342
+13910284
+-12668154
+6233312
+-12817442
+-1688781
+-14685901
+-12374624
+11884776
+934256
+-1002726
+-3771616
+14893835
+-3117981
+400531
+-6091459
+-7207958
+-4996595
+13247437
+-11444514
+-5881400
+4383707
+12674904
+7512368
+-5294776
+16092246
+-16296996
+-4445080
+14773610
+3176493
+-4160953
+-5898823
+12517652
+3556683
+6272047
+-3334883
+-8224240
+-6583610
+15688207
+-15891395
+3635119
+-976424
+15455571
+-3150063
+-12420860
+-15771629
+1408944
+6432982
+3195387
+-11208832
+-13090605
+14069829
+-13197162
+13233178
+-2941452
+7227356
+-14192325
+12384832
+13993352
+-14821410
+8508578
+-12785762
+12869623
+-2068338
+-4764218
+9391735
+-11994505
+-7758182
+1272542
+12657823
+-8808745
+15678531
+-13294855
+7347446
+10619019
+15634854
+10088749
+464832
+16555392
+-25642
+-12487544
+-2454719
+-16293275
+-2888286
+6626053
+6052609
+-8078768
+5094270
+4723624
+-2421569
+8264022
+16579364
+-6144648
+4194250
+8407857
+-6502497
+6715985
+-13982864
+3501196
+-10683192
+7888436
+361567
+8481935
+12395143
+5747739
+16227546
+-4512355
+-5952789
+-3334812
+3775433
+1049261
+7352200

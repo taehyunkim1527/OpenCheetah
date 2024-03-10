@@ -1,0 +1,726 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997782
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.143
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 14.367
+512 => 21273716597
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.854
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.686
+Time in sec for current matmul = 0.147
+2545967086 => 14182665654
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 14.406
+512 => -64290085002
+[31mMatMul Output Mismatch[0m
+Relu #7 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.855
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.694
+Time in sec for current matmul = 0.147
+3943608628 => 57377272988
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 14.421
+512 => -33285789834
+[31mMatMul Output Mismatch[0m
+Relu #11 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.857
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.695
+Time in sec for current matmul = 0.147
+10067388722 => 28715090640
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Thread i = 0, total data sent till now = 79884404
+Thread i = 1, total data sent till now = 4355807
+Thread i = 2, total data sent till now = 2392095
+Thread i = 3, total data sent till now = 4355807
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 263405791 microseconds.
+Total data sent = 79.929 MiB.
+Number of rounds = 4321
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 43.778 seconds.
+Total time in BatchNorm = 0.524 seconds.
+Total time in Truncation = 3.718 seconds.
+Total time in Relu = 5.382 seconds.
+Total time in MaxPool = 209.075 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 72.3933 MiB.
+BatchNorm data sent = 1.25017 MiB.
+Truncation data sent = 2.07568 MiB.
+Relu data sent = 2.10703 MiB.
+Maxpool data sent = 2.10278 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010522
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010522
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010522
+7010522
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010522
+7010522
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010522
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010522
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010522
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010522
+7010521
+7010521
+7010521
+7010521
+7010521
+7010521
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997768
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.145
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 14.408
+512 => -22405474910
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.856
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.685
+Time in sec for current matmul = 0.148
+2905111808 => 29566555758
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 14.396
+512 => 53024888226
+[31mMatMul Output Mismatch[0m
+Relu #7 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.856
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.694
+Time in sec for current matmul = 0.147
+6374254842 => -65766416592
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 14.415
+512 => 11551610274
+[31mMatMul Output Mismatch[0m
+Relu #11 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.861
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 69.691
+Time in sec for current matmul = 0.145
+2781776700 => 18088929446
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.704
+Thread i = 0, total data sent till now = 79882812
+Thread i = 1, total data sent till now = 4355807
+Thread i = 2, total data sent till now = 2392095
+Thread i = 3, total data sent till now = 4355807
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 263441414 microseconds.
+Total data sent = 79.9275 MiB.
+Number of rounds = 4321
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 43.804 seconds.
+Total time in BatchNorm = 0.521 seconds.
+Total time in Truncation = 3.721 seconds.
+Total time in Relu = 5.389 seconds.
+Total time in MaxPool = 209.07 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 72.3919 MiB.
+BatchNorm data sent = 1.25008 MiB.
+Truncation data sent = 2.07568 MiB.
+Relu data sent = 2.10703 MiB.
+Maxpool data sent = 2.10278 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+4416244
+4416243
+4416243
+4416243
+4416243
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416243
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416243
+4416243
+4416243
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416243
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416243
+4416243
+4416243
+4416243
+4416244
+4416244
+4416243
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416243
+4416243
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416243
+4416243
+4416243
+4416243
+4416244
+4416243
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416244
+4416243
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416243
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416243
+4416244
+4416244
+4416243
+4416244
+4416243
+4416243
+4416244
+4416243
+4416244
+4416243
+4416243
+4416243
+4416244
+4416243
+4416244
+4416243
+4416243
+4416244
+4416243
+4416244
+4416244
+4416244
+4416243
+4416243
+4416243
+4416243
+4416243
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416243
+4416244
+4416244
+4416243
+4416243
+4416244
+4416243
+4416243
+4416244
+4416244
+4416244
+4416244
+4416244
+4416243
+4416244
+4416244
+4416244

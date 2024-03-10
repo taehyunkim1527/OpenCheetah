@@ -1,0 +1,792 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997721
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.017
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 2.126
+512 => -31342769494
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.095
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.093
+Time in sec for current matmul = 0.024
+2924279308 => -10773704488
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Time in sec for current matmul = 0.019
+-512 => -41372966388
+[31mMatMul Output Mismatch[0m
+Relu #7 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 2.134
+512 => -13693138262
+[31mMatMul Output Mismatch[0m
+Relu #9 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.093
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.112
+Time in sec for current matmul = 0.027
+3604825622 => 64200442689
+[31mMatMul Output Mismatch[0m
+Relu #11 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.02
+8025055836 => 56646865388
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 2.177
+512 => -27853108566
+[31mMatMul Output Mismatch[0m
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.092
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.094
+Time in sec for current matmul = 0.027
+9546985066 => 46641757736
+[31mMatMul Output Mismatch[0m
+Relu #17 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.021
+5830220238 => 45538498814
+[31mMatMul Output Mismatch[0m
+Relu #19 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 2.109
+512 => -2016195926
+[31mMatMul Output Mismatch[0m
+Relu #21 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.09
+Maxpool 4 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.093
+Time in sec for current matmul = 0.024
+8600942982 => -68377804304
+[31mMatMul Output Mismatch[0m
+Relu #23 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.02
+-512 => 31674267758
+[31mMatMul Output Mismatch[0m
+Relu #25 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Thread i = 0, total data sent till now = 106327738
+Thread i = 1, total data sent till now = 5243503
+Thread i = 2, total data sent till now = 2617183
+Thread i = 3, total data sent till now = 5243503
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 10085704 microseconds.
+Total data sent = 107.055 MiB.
+Number of rounds = 5827
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 8.745 seconds.
+Total time in BatchNorm = 0.056 seconds.
+Total time in Truncation = 0.369 seconds.
+Total time in Relu = 0.387 seconds.
+Total time in MaxPool = 0.392 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 97.397 MiB.
+BatchNorm data sent = 1.25018 MiB.
+Truncation data sent = 2.76892 MiB.
+Relu data sent = 2.83533 MiB.
+Maxpool data sent = 2.80371 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+7732977
+7732976
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732976
+7732976
+7732977
+7732977
+7732976
+7732976
+7732976
+7732977
+7732976
+7732976
+7732976
+7732976
+7732977
+7732976
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732977
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732976
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732977
+7732976
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732977
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732977
+7732976
+7732976
+7732976
+7732977
+7732977
+7732976
+7732976
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732976
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732976
+7732977
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732976
+7732977
+7732976
+7732977
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732977
+7732976
+7732976
+7732977
+7732976
+7732976
+7732977
+7732977
+7732976
+7732976
+7732977
+7732976
+7732977
+7732977
+7732976
+7732976
+7732976
+7732976
+7732976
+7732976
+7732976
+7732977
+7732976
+7732977
+7732977
+7732977
+7732976
+7732977
+7732977
+7732977
+7732977
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997790
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 25600 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.016
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #1 on 25600 points by 12 bits
+Time in sec for current matmul = 2.151
+512 => 40185321774
+[31mMatMul Output Mismatch[0m
+Relu #3 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.083
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.094
+Time in sec for current matmul = 0.021
+2584047784 => -8789321098
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.019
+-512 => -2687306328
+[31mMatMul Output Mismatch[0m
+Relu #7 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #2 on 25600 points by 12 bits
+Time in sec for current matmul = 2.155
+512 => 61593049390
+[31mMatMul Output Mismatch[0m
+Relu #9 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.091
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.093
+Time in sec for current matmul = 0.03
+2605399574 => -46200857016
+[31mMatMul Output Mismatch[0m
+Relu #11 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.021
+-512 => -63627263502
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #3 on 25600 points by 12 bits
+Time in sec for current matmul = 2.166
+512 => -50545862354
+[31mMatMul Output Mismatch[0m
+Relu #15 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.087
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.094
+Time in sec for current matmul = 0.028
+2091600904 => 63336306291
+[31mMatMul Output Mismatch[0m
+Relu #17 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.031
+7917038822 => 5953924122
+[31mMatMul Output Mismatch[0m
+Relu #19 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Truncate #4 on 25600 points by 12 bits
+Time in sec for current matmul = 2.141
+512 => -17863845586
+[31mMatMul Output Mismatch[0m
+Relu #21 on 25600 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.088
+Maxpool 4 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.093
+Time in sec for current matmul = 0.03
+3427414984 => 483840952
+[31mMatMul Output Mismatch[0m
+Relu #23 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Time in sec for current matmul = 0.019
+60480660 => 1021887116
+[31mMatMul Output Mismatch[0m
+Relu #25 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.002
+Thread i = 0, total data sent till now = 106325288
+Thread i = 1, total data sent till now = 5243503
+Thread i = 2, total data sent till now = 2617183
+Thread i = 3, total data sent till now = 5243503
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 10119277 microseconds.
+Total data sent = 107.053 MiB.
+Number of rounds = 5827
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 8.828 seconds.
+Total time in BatchNorm = 0.049 seconds.
+Total time in Truncation = 0.379 seconds.
+Total time in Relu = 0.366 seconds.
+Total time in MaxPool = 0.374 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 97.3945 MiB.
+BatchNorm data sent = 1.2503 MiB.
+Truncation data sent = 2.76892 MiB.
+Relu data sent = 2.83533 MiB.
+Maxpool data sent = 2.80371 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249486
+249486
+249485
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249486
+249486
+249486
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249486
+249485
+249485
+249485
+249485

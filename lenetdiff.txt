@@ -1,0 +1,2808 @@
+14,17c14,47
+< int32_t bitlength = 41;
+< int32_t nImages = 1;
+< int kDoExtractTruncate = 1;
+< int kScale = 15;
+---
+> int32_t bitlength = 64;
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+34,35c64,65
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+43c73
+< int64_t aIdx1 =  (int32_t)0;
+---
+> int32_t aIdx1 =  (int32_t)0;
+45c75
+< int64_t aIdx2 =  (int32_t)0;
+---
+> int32_t aIdx2 =  (int32_t)0;
+47c77
+< int64_t bIdx1 =  (int32_t)0;
+---
+> int32_t bIdx1 =  (int32_t)0;
+49,50c79,80
+< int64_t bIdx2 =  (int32_t)0;
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> int32_t bIdx2 =  (int32_t)0;
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+53c83
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+62,65c92,95
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+74,78c104,108
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+89c119
+< int64_t aIdx1 =  (int32_t)0;
+---
+> int32_t aIdx1 =  (int32_t)0;
+91c121
+< int64_t aIdx2 =  (int32_t)0;
+---
+> int32_t aIdx2 =  (int32_t)0;
+93c123
+< int64_t aIdx3 =  (int32_t)0;
+---
+> int32_t aIdx3 =  (int32_t)0;
+95c125
+< int64_t aIdx4 =  (int32_t)0;
+---
+> int32_t aIdx4 =  (int32_t)0;
+97c127
+< int64_t bIdx1 =  (int32_t)0;
+---
+> int32_t bIdx1 =  (int32_t)0;
+99c129
+< int64_t bIdx2 =  (int32_t)0;
+---
+> int32_t bIdx2 =  (int32_t)0;
+101c131
+< int64_t bIdx3 =  (int32_t)0;
+---
+> int32_t bIdx3 =  (int32_t)0;
+103,104c133,134
+< int64_t bIdx4 =  (int32_t)0;
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> int32_t bIdx4 =  (int32_t)0;
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+107c137
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+110c140
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+113c143
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+125c155
+< int64_t aIdx1 =  (int32_t)0;
+---
+> int32_t aIdx1 =  (int32_t)0;
+127c157
+< int64_t aIdx2 =  (int32_t)0;
+---
+> int32_t aIdx2 =  (int32_t)0;
+129c159
+< int64_t aIdx3 =  (int32_t)0;
+---
+> int32_t aIdx3 =  (int32_t)0;
+131c161
+< int64_t aIdx4 =  (int32_t)0;
+---
+> int32_t aIdx4 =  (int32_t)0;
+133c163
+< int64_t aIdx5 =  (int32_t)0;
+---
+> int32_t aIdx5 =  (int32_t)0;
+135c165
+< int64_t bIdx1 =  (int32_t)0;
+---
+> int32_t bIdx1 =  (int32_t)0;
+137c167
+< int64_t bIdx2 =  (int32_t)0;
+---
+> int32_t bIdx2 =  (int32_t)0;
+139c169
+< int64_t bIdx3 =  (int32_t)0;
+---
+> int32_t bIdx3 =  (int32_t)0;
+141c171
+< int64_t bIdx4 =  (int32_t)0;
+---
+> int32_t bIdx4 =  (int32_t)0;
+143,144c173,174
+< int64_t bIdx5 =  (int32_t)0;
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> int32_t bIdx5 =  (int32_t)0;
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+147c177
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+150c180
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+153c183
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+156c186
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+168c198
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+174,175c204,205
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+182,184c212,214
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+192,195c222,225
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+204,208c234,238
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+218c248
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+224,225c254,255
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+232,234c262,264
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+242,245c272,275
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+254c284
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+260,261c290,291
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+268,270c298,300
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+278,281c308,311
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+289,291c319,321
+< void CreateCopy2211(int32_t s1, int32_t s2, int32_t inps1, int32_t inps2, uint64_t* inArr, int32_t perDimSize, int64_t* beginIdx, int64_t* sizeIdx, uint64_t* outArr){
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> void CreateCopy2211(int32_t s1, int32_t s2, int32_t inps1, int32_t inps2, uint64_t* inArr, int32_t perDimSize, int32_t* beginIdx, int32_t* sizeIdx, uint64_t* outArr){
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+297,302c327,332
+< void CreateCopy5511(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t s5, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, int32_t inps5, uint64_t* inArr, int32_t perDimSize, int64_t* beginIdx, int64_t* sizeIdx, uint64_t* outArr){
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< for (uint64_t m =  (int32_t)0; m < s5; m++){
+---
+> void CreateCopy5511(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t s5, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, int32_t inps5, uint64_t* inArr, int32_t perDimSize, int32_t* beginIdx, int32_t* sizeIdx, uint64_t* outArr){
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> for (uint32_t m =  (int32_t)0; m < s5; m++){
+312,315c342,345
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+324,325c354,355
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+344,347c374,377
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+384,387c414,417
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+440,443c470,473
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+512,515c542,545
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+600,603c630,633
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+704,707c734,737
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+824,827c854,857
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+960,963c990,993
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+1112,1115c1142,1145
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+1280,1283c1310,1313
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+1464,1467c1494,1497
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+1664,1667c1694,1697
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+1880,1883c1910,1913
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+2112,2115c2142,2145
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+2360,2363c2390,2393
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+2624,2627c2654,2657
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+2904,2907c2934,2937
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+3200,3203c3230,3233
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+3512,3515c3542,3545
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+3840,3843c3870,3873
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+4184,4187c4214,4217
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+4544,4547c4574,4577
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+4920,4923c4950,4953
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+5312,5315c5342,5345
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+5720,5723c5750,5753
+< for (uint64_t o1 =  (int32_t)0; o1 < O1; o1++){
+< for (uint64_t o2 =  (int32_t)0; o2 < O2; o2++){
+< for (uint64_t o3 =  (int32_t)0; o3 < O3; o3++){
+< for (uint64_t o4 =  (int32_t)0; o4 < O4; o4++){
+---
+> for (uint32_t o1 =  (int32_t)0; o1 < O1; o1++){
+> for (uint32_t o2 =  (int32_t)0; o2 < O2; o2++){
+> for (uint32_t o3 =  (int32_t)0; o3 < O3; o3++){
+> for (uint32_t o4 =  (int32_t)0; o4 < O4; o4++){
+5725c5755
+< int64_t i1 = o1;
+---
+> int32_t i1 = o1;
+5727c5757
+< int64_t i2 = o2;
+---
+> int32_t i2 = o2;
+5729c5759
+< int64_t i3 = o3;
+---
+> int32_t i3 = o3;
+5731c5761
+< int64_t i4 = o4;
+---
+> int32_t i4 = o4;
+5752,5755c5782,5785
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+5757c5787
+< int64_t linIdx = ((((fh * FW) * CI) + (fw * CI)) + ci);
+---
+> int32_t linIdx = ((((fh * FW) * CI) + (fw * CI)) + ci);
+5766,5769c5796,5799
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t h =  (int32_t)0; h < finalH; h++){
+< for (uint64_t w =  (int32_t)0; w < finalW; w++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t h =  (int32_t)0; h < finalH; h++){
+> for (uint32_t w =  (int32_t)0; w < finalW; w++){
+5779,5780c5809,5810
+< int64_t linIdxFilterMult =  (int32_t)0;
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+---
+> int32_t linIdxFilterMult =  (int32_t)0;
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+5782c5812
+< int64_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+---
+> int32_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+5784c5814
+< int64_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+---
+> int32_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+5787c5817
+< int64_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+---
+> int32_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+5789c5819
+< int64_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+---
+> int32_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+5791,5792c5821,5822
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+5794c5824
+< int64_t curPosH = (leftTopCornerH + fh);
+---
+> int32_t curPosH = (leftTopCornerH + fh);
+5796c5826
+< int64_t curPosW = (leftTopCornerW + fw);
+---
+> int32_t curPosW = (leftTopCornerW + fw);
+5799c5829
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+5821c5851
+< int64_t reshapedFilterRows = CO;
+---
+> int32_t reshapedFilterRows = CO;
+5823c5853
+< int64_t reshapedFilterCols = ((FH * FW) * CI);
+---
+> int32_t reshapedFilterCols = ((FH * FW) * CI);
+5825c5855
+< int64_t reshapedIPRows = ((FH * FW) * CI);
+---
+> int32_t reshapedIPRows = ((FH * FW) * CI);
+5827c5857
+< int64_t newH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+---
+> int32_t newH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+5829c5859
+< int64_t newW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+---
+> int32_t newW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+5831c5861
+< int64_t reshapedIPCols = ((N * newH) * newW);
+---
+> int32_t reshapedIPCols = ((N * newH) * newW);
+5849c5879
+< int64_t GIS = (CI / G);
+---
+> int32_t GIS = (CI / G);
+5851,5857c5881,5887
+< int64_t GOS = (CO / G);
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t cog =  (int32_t)0; cog < GOS; cog++){
+< for (uint64_t cig =  (int32_t)0; cig < GIS; cig++){
+< for (uint64_t g =  (int32_t)0; g < G; g++){
+< for (uint64_t h =  (int32_t)0; h < outH; h++){
+< for (uint64_t w =  (int32_t)0; w < outW; w++){
+---
+> int32_t GOS = (CO / G);
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t cog =  (int32_t)0; cog < GOS; cog++){
+> for (uint32_t cig =  (int32_t)0; cig < GIS; cig++){
+> for (uint32_t g =  (int32_t)0; g < G; g++){
+> for (uint32_t h =  (int32_t)0; h < outH; h++){
+> for (uint32_t w =  (int32_t)0; w < outW; w++){
+5861c5891
+< int64_t ci = ((GIS * g) + cig);
+---
+> int32_t ci = ((GIS * g) + cig);
+5863c5893
+< int64_t co = ((GOS * g) + cog);
+---
+> int32_t co = ((GOS * g) + cog);
+5865,5866c5895,5896
+< int64_t curPosH = ((strideH * h) - zPadHLeft);
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+---
+> int32_t curPosH = ((strideH * h) - zPadHLeft);
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+5868,5869c5898,5899
+< int64_t curPosW = ((strideW * w) - zPadWLeft);
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> int32_t curPosW = ((strideW * w) - zPadWLeft);
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+5888c5918
+< int64_t outH = ((((H - FH) + (zPadHLeft + zPadHRight)) / strideH) +  (int32_t)1);
+---
+> int32_t outH = ((((H - FH) + (zPadHLeft + zPadHRight)) / strideH) +  (int32_t)1);
+5890c5920
+< int64_t outW = ((((W - FW) + (zPadWLeft + zPadWRight)) / strideW) +  (int32_t)1);
+---
+> int32_t outW = ((((W - FW) + (zPadWLeft + zPadWRight)) / strideW) +  (int32_t)1);
+5896c5926
+< int64_t CIG = (CI / G);
+---
+> int32_t CIG = (CI / G);
+5898c5928
+< int64_t COG = (CO / G);
+---
+> int32_t COG = (CO / G);
+5900,5904c5930,5934
+< int64_t startCO = (g * COG);
+< for (uint64_t co =  (int32_t)0; co < COG; co++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+< for (uint64_t ci =  (int32_t)0; ci < CIG; ci++){
+---
+> int32_t startCO = (g * COG);
+> for (uint32_t co =  (int32_t)0; co < COG; co++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+> for (uint32_t ci =  (int32_t)0; ci < CIG; ci++){
+5906c5936
+< int64_t linIdx = ((((fh * FW) * CIG) + (fw * CIG)) + ci);
+---
+> int32_t linIdx = ((((fh * FW) * CIG) + (fw * CIG)) + ci);
+5916c5946
+< int64_t COG = (CO / G);
+---
+> int32_t COG = (CO / G);
+5918,5922c5948,5952
+< int64_t startCO = (g * COG);
+< for (uint64_t co =  (int32_t)0; co < COG; co++){
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t h =  (int32_t)0; h < finalH; h++){
+< for (uint64_t w =  (int32_t)0; w < finalW; w++){
+---
+> int32_t startCO = (g * COG);
+> for (uint32_t co =  (int32_t)0; co < COG; co++){
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t h =  (int32_t)0; h < finalH; h++){
+> for (uint32_t w =  (int32_t)0; w < finalW; w++){
+5932c5962
+< int64_t linIdxFilterMult =  (int32_t)0;
+---
+> int32_t linIdxFilterMult =  (int32_t)0;
+5934,5935c5964,5965
+< int64_t CIG = (CI / G);
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+---
+> int32_t CIG = (CI / G);
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+5937c5967
+< int64_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+---
+> int32_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+5939c5969
+< int64_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+---
+> int32_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+5942c5972
+< int64_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+---
+> int32_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+5944c5974
+< int64_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+---
+> int32_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+5946,5947c5976,5977
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+5949c5979
+< int64_t curPosH = (leftTopCornerH + fh);
+---
+> int32_t curPosH = (leftTopCornerH + fh);
+5951c5981
+< int64_t curPosW = (leftTopCornerW + fw);
+---
+> int32_t curPosW = (leftTopCornerW + fw);
+5955,5956c5985,5986
+< int64_t startCI = (g * CIG);
+< for (uint64_t ci =  (int32_t)0; ci < CIG; ci++){
+---
+> int32_t startCI = (g * CIG);
+> for (uint32_t ci =  (int32_t)0; ci < CIG; ci++){
+5978c6008
+< int64_t CIG = (CI / G);
+---
+> int32_t CIG = (CI / G);
+5980c6010
+< int64_t reshapedFilterRows = (CO / G);
+---
+> int32_t reshapedFilterRows = (CO / G);
+5982c6012
+< int64_t reshapedFilterCols = ((FH * FW) * CIG);
+---
+> int32_t reshapedFilterCols = ((FH * FW) * CIG);
+5984c6014
+< int64_t reshapedIPRows = ((FH * FW) * CIG);
+---
+> int32_t reshapedIPRows = ((FH * FW) * CIG);
+5986c6016
+< int64_t outH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+---
+> int32_t outH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+5988c6018
+< int64_t outW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+---
+> int32_t outW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+5990,5991c6020,6021
+< int64_t reshapedIPCols = ((N * outH) * outW);
+< for (uint64_t g =  (int32_t)0; g < G; g++){
+---
+> int32_t reshapedIPCols = ((N * outH) * outW);
+> for (uint32_t g =  (int32_t)0; g < G; g++){
+6009,6013c6039,6043
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t fd =  (int32_t)0; fd < FD; fd++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t fd =  (int32_t)0; fd < FD; fd++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6015c6045
+< int64_t linIdx = ((((((fd * FH) * FW) * CI) + ((fh * FW) * CI)) + (fw * CI)) + ci);
+---
+> int32_t linIdx = ((((((fd * FH) * FW) * CI) + ((fh * FW) * CI)) + (fw * CI)) + ci);
+6025,6029c6055,6059
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t d =  (int32_t)0; d < finalD; d++){
+< for (uint64_t h =  (int32_t)0; h < finalH; h++){
+< for (uint64_t w =  (int32_t)0; w < finalW; w++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t d =  (int32_t)0; d < finalD; d++){
+> for (uint32_t h =  (int32_t)0; h < finalH; h++){
+> for (uint32_t w =  (int32_t)0; w < finalW; w++){
+6040,6041c6070,6071
+< int64_t linIdxFilterMult =  (int32_t)0;
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+---
+> int32_t linIdxFilterMult =  (int32_t)0;
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+6043c6073
+< int64_t leftTopCornerD = ( (int32_t)0 - zPadDLeft);
+---
+> int32_t leftTopCornerD = ( (int32_t)0 - zPadDLeft);
+6045c6075
+< int64_t extremeRightBottomCornerD = ((D -  (int32_t)1) + zPadDRight);
+---
+> int32_t extremeRightBottomCornerD = ((D -  (int32_t)1) + zPadDRight);
+6048c6078
+< int64_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+---
+> int32_t leftTopCornerH = ( (int32_t)0 - zPadHLeft);
+6050c6080
+< int64_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+---
+> int32_t extremeRightBottomCornerH = ((H -  (int32_t)1) + zPadHRight);
+6053c6083
+< int64_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+---
+> int32_t leftTopCornerW = ( (int32_t)0 - zPadWLeft);
+6055c6085
+< int64_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+---
+> int32_t extremeRightBottomCornerW = ((W -  (int32_t)1) + zPadWRight);
+6057,6059c6087,6089
+< for (uint64_t fd =  (int32_t)0; fd < FD; fd++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> for (uint32_t fd =  (int32_t)0; fd < FD; fd++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+6061c6091
+< int64_t curPosD = (leftTopCornerD + fd);
+---
+> int32_t curPosD = (leftTopCornerD + fd);
+6063c6093
+< int64_t curPosH = (leftTopCornerH + fh);
+---
+> int32_t curPosH = (leftTopCornerH + fh);
+6065c6095
+< int64_t curPosW = (leftTopCornerW + fw);
+---
+> int32_t curPosW = (leftTopCornerW + fw);
+6068c6098
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6094c6124
+< int64_t reshapedFilterRows = CO;
+---
+> int32_t reshapedFilterRows = CO;
+6096c6126
+< int64_t reshapedFilterCols = (((FD * FH) * FW) * CI);
+---
+> int32_t reshapedFilterCols = (((FD * FH) * FW) * CI);
+6098c6128
+< int64_t reshapedIPRows = (((FD * FH) * FW) * CI);
+---
+> int32_t reshapedIPRows = (((FD * FH) * FW) * CI);
+6100c6130
+< int64_t newD = ((((D + (zPadDLeft + zPadDRight)) - FD) / strideD) +  (int32_t)1);
+---
+> int32_t newD = ((((D + (zPadDLeft + zPadDRight)) - FD) / strideD) +  (int32_t)1);
+6102c6132
+< int64_t newH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+---
+> int32_t newH = ((((H + (zPadHLeft + zPadHRight)) - FH) / strideH) +  (int32_t)1);
+6104c6134
+< int64_t newW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+---
+> int32_t newW = ((((W + (zPadWLeft + zPadWRight)) - FW) / strideW) +  (int32_t)1);
+6106c6136
+< int64_t reshapedIPCols = (((N * newD) * newH) * newW);
+---
+> int32_t reshapedIPCols = (((N * newD) * newH) * newW);
+6123,6128c6153,6158
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t d =  (int32_t)0; d < outD; d++){
+< for (uint64_t h =  (int32_t)0; h < outH; h++){
+< for (uint64_t w =  (int32_t)0; w < outW; w++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t d =  (int32_t)0; d < outD; d++){
+> for (uint32_t h =  (int32_t)0; h < outH; h++){
+> for (uint32_t w =  (int32_t)0; w < outW; w++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6131,6133c6161,6163
+< for (uint64_t fd = (d * strideD); fd < ((d * strideD) + FD); fd++){
+< for (uint64_t fh = (h * strideH); fh < ((h * strideH) + FH); fh++){
+< for (uint64_t fw = (w * strideW); fw < ((w * strideW) + FW); fw++){
+---
+> for (uint32_t fd = (d * strideD); fd < ((d * strideD) + FD); fd++){
+> for (uint32_t fh = (h * strideH); fh < ((h * strideH) + FH); fh++){
+> for (uint32_t fw = (w * strideW); fw < ((w * strideW) + FW); fw++){
+6135c6165
+< int64_t curPosD = (fd - zPadDLeft);
+---
+> int32_t curPosD = (fd - zPadDLeft);
+6137c6167
+< int64_t curPosH = (fh - zPadHLeft);
+---
+> int32_t curPosH = (fh - zPadHLeft);
+6139c6169
+< int64_t curPosW = (fw - zPadWLeft);
+---
+> int32_t curPosW = (fw - zPadWLeft);
+6142c6172
+< int64_t curFilterPosD = (fd - (d * strideD));
+---
+> int32_t curFilterPosD = (fd - (d * strideD));
+6144c6174
+< int64_t curFilterPosH = (fh - (h * strideH));
+---
+> int32_t curFilterPosH = (fh - (h * strideH));
+6146c6176
+< int64_t curFilterPosW = (fw - (w * strideW));
+---
+> int32_t curFilterPosW = (fw - (w * strideW));
+6163c6193
+< int64_t outD = ((((D - FD) + (zPadDLeft + zPadDRight)) / strideD) +  (int32_t)1);
+---
+> int32_t outD = ((((D - FD) + (zPadDLeft + zPadDRight)) / strideD) +  (int32_t)1);
+6165c6195
+< int64_t outH = ((((H - FH) + (zPadHLeft + zPadHRight)) / strideH) +  (int32_t)1);
+---
+> int32_t outH = ((((H - FH) + (zPadHLeft + zPadHRight)) / strideH) +  (int32_t)1);
+6167c6197
+< int64_t outW = ((((W - FW) + (zPadWLeft + zPadWRight)) / strideW) +  (int32_t)1);
+---
+> int32_t outW = ((((W - FW) + (zPadWLeft + zPadWRight)) / strideW) +  (int32_t)1);
+6172,6175c6202,6205
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t h =  (int32_t)0; h < finalH; h++){
+< for (uint64_t w =  (int32_t)0; w < finalW; w++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t h =  (int32_t)0; h < finalH; h++){
+> for (uint32_t w =  (int32_t)0; w < finalW; w++){
+6184,6187c6214,6217
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6189c6219
+< int64_t linIdx = ((((fh * FW) * CI) + (fw * CI)) + ci);
+---
+> int32_t linIdx = ((((fh * FW) * CI) + (fw * CI)) + ci);
+6199,6200c6229,6230
+< int64_t linIdxFilterMult =  (int32_t)0;
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+---
+> int32_t linIdxFilterMult =  (int32_t)0;
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+6202c6232
+< int64_t leftTopCornerH = ( (int32_t)0 - zPadTrHLeft);
+---
+> int32_t leftTopCornerH = ( (int32_t)0 - zPadTrHLeft);
+6204c6234
+< int64_t HPrimeTilde = (HPrime + ((HPrime -  (int32_t)1) * (strideH -  (int32_t)1)));
+---
+> int32_t HPrimeTilde = (HPrime + ((HPrime -  (int32_t)1) * (strideH -  (int32_t)1)));
+6206c6236
+< int64_t extremeRightBottomCornerH = ((HPrimeTilde -  (int32_t)1) + zPadTrHRight);
+---
+> int32_t extremeRightBottomCornerH = ((HPrimeTilde -  (int32_t)1) + zPadTrHRight);
+6209c6239
+< int64_t leftTopCornerW = ( (int32_t)0 - zPadTrWLeft);
+---
+> int32_t leftTopCornerW = ( (int32_t)0 - zPadTrWLeft);
+6211c6241
+< int64_t WPrimeTilde = (WPrime + ((WPrime -  (int32_t)1) * (strideW -  (int32_t)1)));
+---
+> int32_t WPrimeTilde = (WPrime + ((WPrime -  (int32_t)1) * (strideW -  (int32_t)1)));
+6213c6243
+< int64_t extremeRightBottomCornerW = ((WPrimeTilde -  (int32_t)1) + zPadTrWRight);
+---
+> int32_t extremeRightBottomCornerW = ((WPrimeTilde -  (int32_t)1) + zPadTrWRight);
+6215,6216c6245,6246
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+6218c6248
+< int64_t curPosH = (leftTopCornerH + fh);
+---
+> int32_t curPosH = (leftTopCornerH + fh);
+6220c6250
+< int64_t curPosW = (leftTopCornerW + fw);
+---
+> int32_t curPosW = (leftTopCornerW + fw);
+6223c6253
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6229c6259
+< int64_t idxInputH = (curPosH / strideH);
+---
+> int32_t idxInputH = (curPosH / strideH);
+6231c6261
+< int64_t idxInputW = (curPosW / strideW);
+---
+> int32_t idxInputW = (curPosW / strideW);
+6253c6283
+< int64_t reshapedFilterRows = CO;
+---
+> int32_t reshapedFilterRows = CO;
+6255c6285
+< int64_t reshapedFilterCols = ((FH * FW) * CI);
+---
+> int32_t reshapedFilterCols = ((FH * FW) * CI);
+6257c6287
+< int64_t reshapedIPRows = ((FH * FW) * CI);
+---
+> int32_t reshapedIPRows = ((FH * FW) * CI);
+6259c6289
+< int64_t reshapedIPCols = ((N * H) * W);
+---
+> int32_t reshapedIPCols = ((N * H) * W);
+6276,6280c6306,6310
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t fd =  (int32_t)0; fd < FD; fd++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t fd =  (int32_t)0; fd < FD; fd++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6282c6312
+< int64_t linIdx = ((((((fd * FH) * FW) * CI) + ((fh * FW) * CI)) + (fw * CI)) + ci);
+---
+> int32_t linIdx = ((((((fd * FH) * FW) * CI) + ((fh * FW) * CI)) + (fw * CI)) + ci);
+6293,6294c6323,6324
+< int64_t linIdxFilterMult =  (int32_t)0;
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+---
+> int32_t linIdxFilterMult =  (int32_t)0;
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+6296c6326
+< int64_t leftTopCornerD = ( (int32_t)0 - zPadTrDLeft);
+---
+> int32_t leftTopCornerD = ( (int32_t)0 - zPadTrDLeft);
+6298c6328
+< int64_t DPrimeTilde = (DPrime + ((DPrime -  (int32_t)1) * (strideD -  (int32_t)1)));
+---
+> int32_t DPrimeTilde = (DPrime + ((DPrime -  (int32_t)1) * (strideD -  (int32_t)1)));
+6300c6330
+< int64_t extremeRightBottomCornerD = ((DPrimeTilde -  (int32_t)1) + zPadTrDRight);
+---
+> int32_t extremeRightBottomCornerD = ((DPrimeTilde -  (int32_t)1) + zPadTrDRight);
+6303c6333
+< int64_t leftTopCornerH = ( (int32_t)0 - zPadTrHLeft);
+---
+> int32_t leftTopCornerH = ( (int32_t)0 - zPadTrHLeft);
+6305c6335
+< int64_t HPrimeTilde = (HPrime + ((HPrime -  (int32_t)1) * (strideH -  (int32_t)1)));
+---
+> int32_t HPrimeTilde = (HPrime + ((HPrime -  (int32_t)1) * (strideH -  (int32_t)1)));
+6307c6337
+< int64_t extremeRightBottomCornerH = ((HPrimeTilde -  (int32_t)1) + zPadTrHRight);
+---
+> int32_t extremeRightBottomCornerH = ((HPrimeTilde -  (int32_t)1) + zPadTrHRight);
+6310c6340
+< int64_t leftTopCornerW = ( (int32_t)0 - zPadTrWLeft);
+---
+> int32_t leftTopCornerW = ( (int32_t)0 - zPadTrWLeft);
+6312c6342
+< int64_t WPrimeTilde = (WPrime + ((WPrime -  (int32_t)1) * (strideW -  (int32_t)1)));
+---
+> int32_t WPrimeTilde = (WPrime + ((WPrime -  (int32_t)1) * (strideW -  (int32_t)1)));
+6314c6344
+< int64_t extremeRightBottomCornerW = ((WPrimeTilde -  (int32_t)1) + zPadTrWRight);
+---
+> int32_t extremeRightBottomCornerW = ((WPrimeTilde -  (int32_t)1) + zPadTrWRight);
+6316,6318c6346,6348
+< for (uint64_t fd =  (int32_t)0; fd < FD; fd++){
+< for (uint64_t fh =  (int32_t)0; fh < FH; fh++){
+< for (uint64_t fw =  (int32_t)0; fw < FW; fw++){
+---
+> for (uint32_t fd =  (int32_t)0; fd < FD; fd++){
+> for (uint32_t fh =  (int32_t)0; fh < FH; fh++){
+> for (uint32_t fw =  (int32_t)0; fw < FW; fw++){
+6320c6350
+< int64_t curPosD = (leftTopCornerD + fd);
+---
+> int32_t curPosD = (leftTopCornerD + fd);
+6322c6352
+< int64_t curPosH = (leftTopCornerH + fh);
+---
+> int32_t curPosH = (leftTopCornerH + fh);
+6324c6354
+< int64_t curPosW = (leftTopCornerW + fw);
+---
+> int32_t curPosW = (leftTopCornerW + fw);
+6327c6357
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6333c6363
+< int64_t idxInputD = (curPosD / strideD);
+---
+> int32_t idxInputD = (curPosD / strideD);
+6335c6365
+< int64_t idxInputH = (curPosH / strideH);
+---
+> int32_t idxInputH = (curPosH / strideH);
+6337c6367
+< int64_t idxInputW = (curPosW / strideW);
+---
+> int32_t idxInputW = (curPosW / strideW);
+6363c6393
+< int64_t reshapedFilterRows = CO;
+---
+> int32_t reshapedFilterRows = CO;
+6365c6395
+< int64_t reshapedFilterCols = (((FD * FH) * FW) * CI);
+---
+> int32_t reshapedFilterCols = (((FD * FH) * FW) * CI);
+6367c6397
+< int64_t reshapedIPRows = (((FD * FH) * FW) * CI);
+---
+> int32_t reshapedIPRows = (((FD * FH) * FW) * CI);
+6369c6399
+< int64_t reshapedIPCols = (((N * D) * H) * W);
+---
+> int32_t reshapedIPCols = (((N * D) * H) * W);
+6386,6391c6416,6421
+< for (uint64_t n =  (int32_t)0; n < N; n++){
+< for (uint64_t co =  (int32_t)0; co < CO; co++){
+< for (uint64_t d =  (int32_t)0; d < outD; d++){
+< for (uint64_t h =  (int32_t)0; h < outH; h++){
+< for (uint64_t w =  (int32_t)0; w < outW; w++){
+< for (uint64_t ci =  (int32_t)0; ci < CI; ci++){
+---
+> for (uint32_t n =  (int32_t)0; n < N; n++){
+> for (uint32_t co =  (int32_t)0; co < CO; co++){
+> for (uint32_t d =  (int32_t)0; d < outD; d++){
+> for (uint32_t h =  (int32_t)0; h < outH; h++){
+> for (uint32_t w =  (int32_t)0; w < outW; w++){
+> for (uint32_t ci =  (int32_t)0; ci < CI; ci++){
+6394,6396c6424,6426
+< for (uint64_t fd = d; fd < (d + FD); fd++){
+< for (uint64_t fh = h; fh < (h + FH); fh++){
+< for (uint64_t fw = w; fw < (w + FW); fw++){
+---
+> for (uint32_t fd = d; fd < (d + FD); fd++){
+> for (uint32_t fh = h; fh < (h + FH); fh++){
+> for (uint32_t fw = w; fw < (w + FW); fw++){
+6398c6428
+< int64_t curPosD = ((fd - zPadDLeft) / strideD);
+---
+> int32_t curPosD = ((fd - zPadDLeft) / strideD);
+6400c6430
+< int64_t curPosH = ((fh - zPadHLeft) / strideH);
+---
+> int32_t curPosH = ((fh - zPadHLeft) / strideH);
+6402c6432
+< int64_t curPosW = ((fw - zPadWLeft) / strideW);
+---
+> int32_t curPosW = ((fw - zPadWLeft) / strideW);
+6405c6435
+< int64_t curFilterPosD = (((FD + d) - fd) -  (int32_t)1);
+---
+> int32_t curFilterPosD = (((FD + d) - fd) -  (int32_t)1);
+6407c6437
+< int64_t curFilterPosH = (((FH + h) - fh) -  (int32_t)1);
+---
+> int32_t curFilterPosH = (((FH + h) - fh) -  (int32_t)1);
+6409c6439
+< int64_t curFilterPosW = (((FW + w) - fw) -  (int32_t)1);
+---
+> int32_t curFilterPosW = (((FW + w) - fw) -  (int32_t)1);
+6429,6430c6459,6460
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+6436c6466
+< void Pad442(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, uint64_t* inpArr, int32_t pads1, int32_t pads2, int64_t* paddings, uint64_t* outArr){
+---
+> void Pad442(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, uint64_t* inpArr, int32_t pads1, int32_t pads2, int32_t* paddings, uint64_t* outArr){
+6438c6468
+< int64_t lbounds1 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)0);
+---
+> int32_t lbounds1 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)0);
+6440c6470
+< int64_t rbounds1excl = (s1 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)1));
+---
+> int32_t rbounds1excl = (s1 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)1));
+6442c6472
+< int64_t lbounds2 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)0);
+---
+> int32_t lbounds2 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)0);
+6444c6474
+< int64_t rbounds2excl = (s2 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)1));
+---
+> int32_t rbounds2excl = (s2 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)1));
+6446c6476
+< int64_t lbounds3 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)0);
+---
+> int32_t lbounds3 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)0);
+6448c6478
+< int64_t rbounds3excl = (s3 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)1));
+---
+> int32_t rbounds3excl = (s3 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)1));
+6450c6480
+< int64_t lbounds4 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)0);
+---
+> int32_t lbounds4 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)0);
+6452,6456c6482,6486
+< int64_t rbounds4excl = (s4 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)1));
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+---
+> int32_t rbounds4excl = (s4 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)1));
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+6468c6498
+< void Pad552(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t s5, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, int32_t inps5, uint64_t* inpArr, int32_t pads1, int32_t pads2, int64_t* paddings, uint64_t* outArr){
+---
+> void Pad552(int32_t s1, int32_t s2, int32_t s3, int32_t s4, int32_t s5, int32_t inps1, int32_t inps2, int32_t inps3, int32_t inps4, int32_t inps5, uint64_t* inpArr, int32_t pads1, int32_t pads2, int32_t* paddings, uint64_t* outArr){
+6470c6500
+< int64_t lbounds1 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)0);
+---
+> int32_t lbounds1 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)0);
+6472c6502
+< int64_t rbounds1excl = (s1 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)1));
+---
+> int32_t rbounds1excl = (s1 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)0, (int32_t)1));
+6474c6504
+< int64_t lbounds2 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)0);
+---
+> int32_t lbounds2 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)0);
+6476c6506
+< int64_t rbounds2excl = (s2 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)1));
+---
+> int32_t rbounds2excl = (s2 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)1, (int32_t)1));
+6478c6508
+< int64_t lbounds3 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)0);
+---
+> int32_t lbounds3 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)0);
+6480c6510
+< int64_t rbounds3excl = (s3 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)1));
+---
+> int32_t rbounds3excl = (s3 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)2, (int32_t)1));
+6482c6512
+< int64_t lbounds4 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)0);
+---
+> int32_t lbounds4 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)0);
+6484c6514
+< int64_t rbounds4excl = (s4 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)1));
+---
+> int32_t rbounds4excl = (s4 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)3, (int32_t)1));
+6486c6516
+< int64_t lbounds5 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)4, (int32_t)0);
+---
+> int32_t lbounds5 = Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)4, (int32_t)0);
+6488,6493c6518,6523
+< int64_t rbounds5excl = (s5 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)4, (int32_t)1));
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< for (uint64_t m =  (int32_t)0; m < s5; m++){
+---
+> int32_t rbounds5excl = (s5 - Arr2DIdxRowM(paddings,pads1,pads2, (int32_t)4, (int32_t)1));
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> for (uint32_t m =  (int32_t)0; m < s5; m++){
+6506c6536
+< void PadONNX441(int32_t o1, int32_t o2, int32_t o3, int32_t o4, int32_t i1, int32_t i2, int32_t i3, int32_t i4, uint64_t* inpArr, int32_t pads, int64_t* paddings, uint64_t* outArr){
+---
+> void PadONNX441(int32_t o1, int32_t o2, int32_t o3, int32_t o4, int32_t i1, int32_t i2, int32_t i3, int32_t i4, uint64_t* inpArr, int32_t pads, int32_t* paddings, uint64_t* outArr){
+6508c6538
+< int64_t lbounds1 = Arr1DIdxRowM(paddings,pads, (int32_t)0);
+---
+> int32_t lbounds1 = Arr1DIdxRowM(paddings,pads, (int32_t)0);
+6510c6540
+< int64_t rbounds1excl = (o1 - Arr1DIdxRowM(paddings,pads, (int32_t)4));
+---
+> int32_t rbounds1excl = (o1 - Arr1DIdxRowM(paddings,pads, (int32_t)4));
+6512c6542
+< int64_t lbounds2 = Arr1DIdxRowM(paddings,pads, (int32_t)1);
+---
+> int32_t lbounds2 = Arr1DIdxRowM(paddings,pads, (int32_t)1);
+6514c6544
+< int64_t rbounds2excl = (o2 - Arr1DIdxRowM(paddings,pads, (int32_t)5));
+---
+> int32_t rbounds2excl = (o2 - Arr1DIdxRowM(paddings,pads, (int32_t)5));
+6516c6546
+< int64_t lbounds3 = Arr1DIdxRowM(paddings,pads, (int32_t)2);
+---
+> int32_t lbounds3 = Arr1DIdxRowM(paddings,pads, (int32_t)2);
+6518c6548
+< int64_t rbounds3excl = (o3 - Arr1DIdxRowM(paddings,pads, (int32_t)6));
+---
+> int32_t rbounds3excl = (o3 - Arr1DIdxRowM(paddings,pads, (int32_t)6));
+6520c6550
+< int64_t lbounds4 = Arr1DIdxRowM(paddings,pads, (int32_t)3);
+---
+> int32_t lbounds4 = Arr1DIdxRowM(paddings,pads, (int32_t)3);
+6522,6526c6552,6556
+< int64_t rbounds4excl = (o4 - Arr1DIdxRowM(paddings,pads, (int32_t)7));
+< for (uint64_t i =  (int32_t)0; i < o1; i++){
+< for (uint64_t j =  (int32_t)0; j < o2; j++){
+< for (uint64_t k =  (int32_t)0; k < o3; k++){
+< for (uint64_t l =  (int32_t)0; l < o4; l++){
+---
+> int32_t rbounds4excl = (o4 - Arr1DIdxRowM(paddings,pads, (int32_t)7));
+> for (uint32_t i =  (int32_t)0; i < o1; i++){
+> for (uint32_t j =  (int32_t)0; j < o2; j++){
+> for (uint32_t k =  (int32_t)0; k < o3; k++){
+> for (uint32_t l =  (int32_t)0; l < o4; l++){
+6539,6542c6569,6572
+< for (uint64_t i =  (int32_t)0; i < ins1; i++){
+< for (uint64_t j =  (int32_t)0; j < ins2; j++){
+< for (uint64_t k =  (int32_t)0; k < ins3; k++){
+< for (uint64_t l =  (int32_t)0; l < ins4; l++){
+---
+> for (uint32_t i =  (int32_t)0; i < ins1; i++){
+> for (uint32_t j =  (int32_t)0; j < ins2; j++){
+> for (uint32_t k =  (int32_t)0; k < ins3; k++){
+> for (uint32_t l =  (int32_t)0; l < ins4; l++){
+6544c6574
+< int64_t linIdx = ((((((i * ins2) * ins3) * ins4) + ((j * ins3) * ins4)) + (k * ins4)) + l);
+---
+> int32_t linIdx = ((((((i * ins2) * ins3) * ins4) + ((j * ins3) * ins4)) + (k * ins4)) + l);
+6546c6576
+< int64_t outIdx1 = (linIdx / s2);
+---
+> int32_t outIdx1 = (linIdx / s2);
+6548c6578
+< int64_t outIdx2 = (linIdx % s2);
+---
+> int32_t outIdx2 = (linIdx % s2);
+6557,6560c6587,6590
+< for (uint64_t i =  (int32_t)0; i < ins1; i++){
+< for (uint64_t j =  (int32_t)0; j < ins2; j++){
+< for (uint64_t k =  (int32_t)0; k < ins3; k++){
+< for (uint64_t l =  (int32_t)0; l < ins4; l++){
+---
+> for (uint32_t i =  (int32_t)0; i < ins1; i++){
+> for (uint32_t j =  (int32_t)0; j < ins2; j++){
+> for (uint32_t k =  (int32_t)0; k < ins3; k++){
+> for (uint32_t l =  (int32_t)0; l < ins4; l++){
+6562c6592
+< int64_t linIdx = ((((((i * ins2) * ins3) * ins4) + ((j * ins3) * ins4)) + (k * ins4)) + l);
+---
+> int32_t linIdx = ((((((i * ins2) * ins3) * ins4) + ((j * ins3) * ins4)) + (k * ins4)) + l);
+6564c6594
+< int64_t outIdx1 = (linIdx / (s2 * s3));
+---
+> int32_t outIdx1 = (linIdx / (s2 * s3));
+6566c6596
+< int64_t outIdx2 = ((linIdx - ((outIdx1 * s2) * s3)) / s3);
+---
+> int32_t outIdx2 = ((linIdx - ((outIdx1 * s2) * s3)) / s3);
+6568c6598
+< int64_t outIdx3 = ((linIdx - ((outIdx1 * s2) * s3)) - (outIdx2 * s3));
+---
+> int32_t outIdx3 = ((linIdx - ((outIdx1 * s2) * s3)) - (outIdx2 * s3));
+6577,6579c6607,6609
+< for (uint64_t i =  (int32_t)0; i < ins1; i++){
+< for (uint64_t j =  (int32_t)0; j < ins2; j++){
+< for (uint64_t k =  (int32_t)0; k < ins3; k++){
+---
+> for (uint32_t i =  (int32_t)0; i < ins1; i++){
+> for (uint32_t j =  (int32_t)0; j < ins2; j++){
+> for (uint32_t k =  (int32_t)0; k < ins3; k++){
+6581c6611
+< int64_t linIdx = ((((i * ins2) * ins3) + (j * ins3)) + k);
+---
+> int32_t linIdx = ((((i * ins2) * ins3) + (j * ins3)) + k);
+6583c6613
+< int64_t outIdx1 = (linIdx / s2);
+---
+> int32_t outIdx1 = (linIdx / s2);
+6585c6615
+< int64_t outIdx2 = (linIdx % s2);
+---
+> int32_t outIdx2 = (linIdx % s2);
+6594c6624
+< int64_t inpSize = (((s1 * s2) * s3) * s4);
+---
+> int32_t inpSize = (((s1 * s2) * s3) * s4);
+6601,6604c6631,6634
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6606c6636
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6619c6649
+< for (uint64_t ii =  (int32_t)0; ii < s4; ii++){
+---
+> for (uint32_t ii =  (int32_t)0; ii < s4; ii++){
+6625,6628c6655,6658
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6630c6660
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6644c6674
+< int64_t inpSize = ((((s1 * s2) * s3) * s4) * s5);
+---
+> int32_t inpSize = ((((s1 * s2) * s3) * s4) * s5);
+6651,6655c6681,6685
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6657c6687
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+6671c6701
+< for (uint64_t ii =  (int32_t)0; ii < s5; ii++){
+---
+> for (uint32_t ii =  (int32_t)0; ii < s5; ii++){
+6677,6681c6707,6711
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6683c6713
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+6698c6728
+< int64_t inpSize = (s1 * s2);
+---
+> int32_t inpSize = (s1 * s2);
+6705,6706c6735,6736
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+6708c6738
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+6714,6715c6744,6745
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+6717c6747
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+6728c6758
+< int64_t inpSize = (((s1 * s2) * s3) * s4);
+---
+> int32_t inpSize = (((s1 * s2) * s3) * s4);
+6735,6738c6765,6768
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6740c6770
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6748,6751c6778,6781
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6753c6783
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6766c6796
+< int64_t inpSize = ((((s1 * s2) * s3) * s4) * s5);
+---
+> int32_t inpSize = ((((s1 * s2) * s3) * s4) * s5);
+6773,6777c6803,6807
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6779c6809
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+6788,6792c6818,6822
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6794c6824
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+6806c6836
+< void ReduceMean24(int32_t outS1, int32_t outS2, int32_t inS1, int32_t inS2, int32_t inS3, int32_t inS4, uint64_t* inputArr, int64_t* axes, uint64_t* outputArr){
+---
+> void ReduceMean24(int32_t outS1, int32_t outS2, int32_t inS1, int32_t inS2, int32_t inS3, int32_t inS4, uint64_t* inputArr, int32_t* axes, uint64_t* outputArr){
+6808c6838
+< int64_t divisor = (inS2 * inS3);
+---
+> int32_t divisor = (inS2 * inS3);
+6810c6840
+< int64_t outputSize = (outS1 * outS2);
+---
+> int32_t outputSize = (outS1 * outS2);
+6815,6816c6845,6846
+< for (uint64_t i1 =  (int32_t)0; i1 < outS1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < outS2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < outS1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < outS2; i2++){
+6819,6820c6849,6850
+< for (uint64_t i =  (int32_t)0; i < inS2; i++){
+< for (uint64_t j =  (int32_t)0; j < inS3; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < inS2; i++){
+> for (uint32_t j =  (int32_t)0; j < inS3; j++){
+6828,6829c6858,6859
+< for (uint64_t i1 =  (int32_t)0; i1 < outS1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < outS2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < outS1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < outS2; i2++){
+6839c6869
+< int64_t divisor = (inS3 * inS4);
+---
+> int32_t divisor = (inS3 * inS4);
+6841c6871
+< int64_t outputSize = (outS1 * outS2);
+---
+> int32_t outputSize = (outS1 * outS2);
+6846,6847c6876,6877
+< for (uint64_t i1 =  (int32_t)0; i1 < outS1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < outS2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < outS1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < outS2; i2++){
+6850,6851c6880,6881
+< for (uint64_t i =  (int32_t)0; i < inS3; i++){
+< for (uint64_t j =  (int32_t)0; j < inS4; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < inS3; i++){
+> for (uint32_t j =  (int32_t)0; j < inS4; j++){
+6859,6860c6889,6890
+< for (uint64_t i1 =  (int32_t)0; i1 < outS1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < outS2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < outS1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < outS2; i2++){
+6874c6904
+< int64_t size = ((ins1 * ins2) * ins3);
+---
+> int32_t size = ((ins1 * ins2) * ins3);
+6879,6882c6909,6912
+< for (uint64_t i1 =  (int32_t)0; i1 < ins1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < ins2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < ins3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < ins4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < ins1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < ins2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < ins3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < ins4; i4++){
+6884c6914
+< int64_t linIdx = ((((i1 * ins2) * ins3) + (i2 * ins3)) + i3);
+---
+> int32_t linIdx = ((((i1 * ins2) * ins3) + (i2 * ins3)) + i3);
+6891,6893c6921,6923
+< for (uint64_t i1 =  (int32_t)0; i1 < ins1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < ins2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < ins3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < ins1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < ins2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < ins3; i3++){
+6895c6925
+< int64_t linIdx = ((((i1 * ins2) * ins3) + (i2 * ins3)) + i3);
+---
+> int32_t linIdx = ((((i1 * ins2) * ins3) + (i2 * ins3)) + i3);
+6910c6940
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+6915,6916c6945,6946
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+6918c6948
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+6923,6924c6953,6954
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+6926c6956
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+6936c6966
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+6941,6944c6971,6974
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6946c6976
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6953,6956c6983,6986
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+6958c6988
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+6970c7000
+< int64_t size = ((((s1 * s2) * s3) * s4) * s5);
+---
+> int32_t size = ((((s1 * s2) * s3) * s4) * s5);
+6975,6979c7005,7009
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6981c7011
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+6989,6993c7019,7023
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+6995c7025
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+7008c7038
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7013,7014c7043,7044
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7016c7046
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7021,7022c7051,7052
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7024c7054
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7038c7068
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7041,7042c7071,7072
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7044c7074
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7049,7050c7079,7080
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7052c7082
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7061c7091
+< int64_t size = ((s1 * s2) * s3);
+---
+> int32_t size = ((s1 * s2) * s3);
+7064,7066c7094,7096
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+7068c7098
+< int64_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+---
+> int32_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+7074,7076c7104,7106
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+7078c7108
+< int64_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+---
+> int32_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+7088c7118
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+7091,7094c7121,7124
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+7096c7126
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+7103,7106c7133,7136
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+7108c7138
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+7119c7149
+< int64_t size = ((((s1 * s2) * s3) * s4) * s5);
+---
+> int32_t size = ((((s1 * s2) * s3) * s4) * s5);
+7122,7126c7152,7156
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+7128c7158
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+7136,7140c7166,7170
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+7142c7172
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+7158c7188
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7161,7162c7191,7192
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7164c7194
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7169,7170c7199,7200
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+7172c7202
+< int64_t linIdx = ((i1 * s2) + i2);
+---
+> int32_t linIdx = ((i1 * s2) + i2);
+7181c7211
+< int64_t size = ((s1 * s2) * s3);
+---
+> int32_t size = ((s1 * s2) * s3);
+7184,7186c7214,7216
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+7188c7218
+< int64_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+---
+> int32_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+7194,7196c7224,7226
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+7198c7228
+< int64_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+---
+> int32_t linIdx = ((((i1 * s2) * s3) + (i2 * s3)) + i3);
+7208c7238
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+7211,7214c7241,7244
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+7216c7246
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+7223,7226c7253,7256
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+7228c7258
+< int64_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+---
+> int32_t linIdx = ((((((i1 * s2) * s3) * s4) + ((i2 * s3) * s4)) + (i3 * s4)) + i4);
+7239c7269
+< int64_t size = ((((s1 * s2) * s3) * s4) * s5);
+---
+> int32_t size = ((((s1 * s2) * s3) * s4) * s5);
+7242,7246c7272,7276
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+7248c7278
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+7256,7260c7286,7290
+< for (uint64_t i1 =  (int32_t)0; i1 < s1; i1++){
+< for (uint64_t i2 =  (int32_t)0; i2 < s2; i2++){
+< for (uint64_t i3 =  (int32_t)0; i3 < s3; i3++){
+< for (uint64_t i4 =  (int32_t)0; i4 < s4; i4++){
+< for (uint64_t i5 =  (int32_t)0; i5 < s5; i5++){
+---
+> for (uint32_t i1 =  (int32_t)0; i1 < s1; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 < s2; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 < s3; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 < s4; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 < s5; i5++){
+7262c7292
+< int64_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+---
+> int32_t linIdx = ((((((((i1 * s2) * s3) * s4) * s5) + (((i2 * s3) * s4) * s5)) + ((i3 * s4) * s5)) + (i4 * s5)) + i5);
+7278c7308
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7283,7284c7313,7314
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7289,7290c7319,7320
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7298c7328
+< int64_t size = ((s1 * s2) * s3);
+---
+> int32_t size = ((s1 * s2) * s3);
+7303,7306c7333,7336
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr1DIdxRowM(inpCopy,size,(((((i * s2) * s3) + j) * s3) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr1DIdxRowM(inpCopy,size,((((i * s2) * s3) + (j * s3)) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+7311,7314c7341,7344
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,(((((i * s2) * s3) + j) * s3) + k));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,((((i * s2) * s3) + (j * s3)) + k));
+7322c7352
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+7327,7331c7357,7361
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+7337,7341c7367,7371
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l));
+7354c7384
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7359,7360c7389,7390
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7365,7366c7395,7396
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7374c7404
+< int64_t size = ((s1 * s2) * s3);
+---
+> int32_t size = ((s1 * s2) * s3);
+7379,7382c7409,7412
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr1DIdxRowM(inpCopy,size,(((((i * s2) * s3) + j) * s3) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr1DIdxRowM(inpCopy,size,((((i * s2) * s3) + (j * s3)) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+7387,7390c7417,7420
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,(((((i * s2) * s3) + j) * s3) + k));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,((((i * s2) * s3) + (j * s3)) + k));
+7398c7428
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+7403,7407c7433,7437
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+7413,7417c7443,7447
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l));
+7430c7460
+< int64_t size = (s1 * s2);
+---
+> int32_t size = (s1 * s2);
+7435,7436c7465,7466
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7441,7442c7471,7472
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+7450c7480
+< int64_t size = ((s1 * s2) * s3);
+---
+> int32_t size = ((s1 * s2) * s3);
+7455,7458c7485,7488
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr1DIdxRowM(inpCopy,size,(((((i * s2) * s3) + j) * s3) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr1DIdxRowM(inpCopy,size,((((i * s2) * s3) + (j * s3)) + k)) = Arr3DIdxRowM(inp,s1,s2,s3,i,j,k);
+7463,7466c7493,7496
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,(((((i * s2) * s3) + j) * s3) + k));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> Arr3DIdxRowM(out,s1,s2,s3,i,j,k) = Arr1DIdxRowM(outCopy,size,((((i * s2) * s3) + (j * s3)) + k));
+7474c7504
+< int64_t size = (((s1 * s2) * s3) * s4);
+---
+> int32_t size = (((s1 * s2) * s3) * s4);
+7479,7483c7509,7513
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l)) = Arr4DIdxRowM(inp,s1,s2,s3,s4,i,j,k,l);
+7489,7493c7519,7523
+< for (uint64_t i =  (int32_t)0; i < s1; i++){
+< for (uint64_t j =  (int32_t)0; j < s2; j++){
+< for (uint64_t k =  (int32_t)0; k < s3; k++){
+< for (uint64_t l =  (int32_t)0; l < s4; l++){
+< Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,(((((((((i * s2) * s3) * s4) + j) * s3) * s4) + k) * s4) + l));
+---
+> for (uint32_t i =  (int32_t)0; i < s1; i++){
+> for (uint32_t j =  (int32_t)0; j < s2; j++){
+> for (uint32_t k =  (int32_t)0; k < s3; k++){
+> for (uint32_t l =  (int32_t)0; l < s4; l++){
+> Arr4DIdxRowM(out,s1,s2,s3,s4,i,j,k,l) = Arr1DIdxRowM(inpCopy,size,((((((i * s2) * s3) * s4) + ((j * s3) * s4)) + (k * s4)) + l));
+7505c7535
+< amap.arg("p", port, "Port Number");
+---
+> amap.arg("port", port, "Port Number");
+7509,7510d7538
+< amap.arg("N", nImages, "Number of Images");
+< amap.arg("k", kScale, "scale");
+7513c7541,7542
+< assert(party == SERVER || party == CLIENT);
+---
+> assert(party==SERVER || party==CLIENT);
+> 
+7515,7517c7544,7546
+< uint64_t* tmp0 = make_array<uint64_t>(nImages, (int32_t)784);
+< /* Variable to read the clear value corresponding to the input variable tmp0
+< * at (8933,1-8933,42) */
+---
+> 
+> uint64_t* tmp0 = make_array<uint64_t>( (int32_t)1,  (int32_t)784);
+> /* Variable to read the clear value corresponding to the input variable tmp0 at (9027,1-9027,38) */
+7519,7520c7548,7549
+< for (uint64_t i0 = (uint64_t)0; i0 < nImages; i0++) {
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)784; i1++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)1; i0++){
+> for (uint32_t i1 =  (uint32_t)0; i1 <  (int32_t)784; i1++){
+7524c7553
+< Arr2DIdxRowM(tmp0, nImages, (int32_t)784, i0, i1) = (party == CLIENT) ? __tmp_in_tmp0 : 0;
+---
+> Arr2DIdxRowM(tmp0, (int32_t)1, (int32_t)784,i0,i1) = (party == CLIENT) ? __tmp_in_tmp0 : 0;
+7528,7531c7557,7558
+< uint64_t* tmp1 =
+< make_array<uint64_t>((int32_t)5, (int32_t)5, (int32_t)1, (int32_t)32);
+< /* Variable to read the clear value corresponding to the input variable tmp1
+< * at (8936,1-8936,43) */
+---
+> uint64_t* tmp1 = make_array<uint64_t>( (int32_t)5,  (int32_t)5,  (int32_t)1,  (int32_t)16);
+> /* Variable to read the clear value corresponding to the input variable tmp1 at (9030,1-9030,43) */
+7533,7536c7560,7563
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)5; i0++) {
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)5; i1++) {
+< for (uint64_t i2 = (uint64_t)0; i2 < (int32_t)1; i2++) {
+< for (uint64_t i3 = (uint64_t)0; i3 < (int32_t)32; i3++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)5; i0++){
+> for (uint32_t i1 =  (uint32_t)0; i1 <  (int32_t)5; i1++){
+> for (uint32_t i2 =  (uint32_t)0; i2 <  (int32_t)1; i2++){
+> for (uint32_t i3 =  (uint32_t)0; i3 <  (int32_t)16; i3++){
+7540c7567
+< Arr4DIdxRowM(tmp1, (int32_t)5, (int32_t)5, (int32_t)1, (int32_t)32, i0, i1, i2, i3) = (party == SERVER) ? __tmp_in_tmp1 : 0;
+---
+> Arr4DIdxRowM(tmp1, (int32_t)5, (int32_t)5, (int32_t)1, (int32_t)16,i0,i1,i2,i3) = (party == SERVER) ? __tmp_in_tmp1 : 0;
+7546,7548c7573,7574
+< uint64_t* tmp2 = make_array<uint64_t>((int32_t)32);
+< /* Variable to read the clear value corresponding to the input variable tmp2
+< * at (8939,1-8939,34) */
+---
+> uint64_t* tmp2 = make_array<uint64_t>( (int32_t)16);
+> /* Variable to read the clear value corresponding to the input variable tmp2 at (9033,1-9033,34) */
+7550c7576
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)32; i0++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)16; i0++){
+7554c7580
+< Arr1DIdxRowM(tmp2, (int32_t)32, i0) = (party == SERVER) ? __tmp_in_tmp2 : 0;
+---
+> Arr1DIdxRowM(tmp2, (int32_t)16,i0) = (party == SERVER) ? __tmp_in_tmp2 : 0;
+7557,7559c7583,7584
+< uint64_t* tmp3 = make_array<uint64_t>((int32_t)5, (int32_t)5, (int32_t)32, (int32_t)64);
+< /* Variable to read the clear value corresponding to the input variable tmp3
+< * at (8942,1-8942,44) */
+---
+> uint64_t* tmp3 = make_array<uint64_t>( (int32_t)5,  (int32_t)5,  (int32_t)16,  (int32_t)16);
+> /* Variable to read the clear value corresponding to the input variable tmp3 at (9036,1-9036,44) */
+7561,7564c7586,7589
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)5; i0++) {
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)5; i1++) {
+< for (uint64_t i2 = (uint64_t)0; i2 < (int32_t)32; i2++) {
+< for (uint64_t i3 = (uint64_t)0; i3 < (int32_t)64; i3++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)5; i0++){
+> for (uint32_t i1 =  (uint32_t)0; i1 <  (int32_t)5; i1++){
+> for (uint32_t i2 =  (uint32_t)0; i2 <  (int32_t)16; i2++){
+> for (uint32_t i3 =  (uint32_t)0; i3 <  (int32_t)16; i3++){
+7568c7593
+< Arr4DIdxRowM(tmp3, (int32_t)5, (int32_t)5, (int32_t)32, (int32_t)64, i0, i1, i2, i3) = (party == SERVER) ? __tmp_in_tmp3 : 0;
+---
+> Arr4DIdxRowM(tmp3, (int32_t)5, (int32_t)5, (int32_t)16, (int32_t)16,i0,i1,i2,i3) = (party == SERVER) ? __tmp_in_tmp3 : 0;
+7574,7576c7599,7600
+< uint64_t* tmp4 = make_array<uint64_t>((int32_t)64);
+< /* Variable to read the clear value corresponding to the input variable tmp4
+< * at (8945,1-8945,34) */
+---
+> uint64_t* tmp4 = make_array<uint64_t>( (int32_t)16);
+> /* Variable to read the clear value corresponding to the input variable tmp4 at (9039,1-9039,34) */
+7578c7602
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)64; i0++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)16; i0++){
+7582c7606
+< Arr1DIdxRowM(tmp4, (int32_t)64, i0) = (party == SERVER) ? __tmp_in_tmp4 : 0;
+---
+> Arr1DIdxRowM(tmp4, (int32_t)16,i0) = (party == SERVER) ? __tmp_in_tmp4 : 0;
+7585,7587c7609,7610
+< uint64_t* tmp5 = make_array<uint64_t>((int32_t)3136, (int32_t)512);
+< /* Variable to read the clear value corresponding to the input variable tmp5
+< * at (8948,1-8948,41) */
+---
+> uint64_t* tmp5 = make_array<uint64_t>( (int32_t)256,  (int32_t)100);
+> /* Variable to read the clear value corresponding to the input variable tmp5 at (9042,1-9042,40) */
+7589,7590c7612,7613
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)3136; i0++) {
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)512; i1++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)256; i0++){
+> for (uint32_t i1 =  (uint32_t)0; i1 <  (int32_t)100; i1++){
+7594c7617
+< Arr2DIdxRowM(tmp5, (int32_t)3136, (int32_t)512, i0, i1) = (party == SERVER) ? __tmp_in_tmp5 : 0;
+---
+> Arr2DIdxRowM(tmp5, (int32_t)256, (int32_t)100,i0,i1) = (party == SERVER) ? __tmp_in_tmp5 : 0;
+7598,7600c7621,7622
+< uint64_t* tmp6 = make_array<uint64_t>((int32_t)512);
+< /* Variable to read the clear value corresponding to the input variable tmp6
+< * at (8951,1-8951,35) */
+---
+> uint64_t* tmp6 = make_array<uint64_t>( (int32_t)100);
+> /* Variable to read the clear value corresponding to the input variable tmp6 at (9045,1-9045,35) */
+7602c7624
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)512; i0++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)100; i0++){
+7606c7628
+< Arr1DIdxRowM(tmp6, (int32_t)512, i0) = (party == SERVER) ? __tmp_in_tmp6 : 0;
+---
+> Arr1DIdxRowM(tmp6, (int32_t)100,i0) = (party == SERVER) ? __tmp_in_tmp6 : 0;
+7609,7611c7631,7632
+< uint64_t* tmp7 = make_array<uint64_t>((int32_t)512, (int32_t)10);
+< /* Variable to read the clear value corresponding to the input variable tmp7
+< * at (8954,1-8954,39) */
+---
+> uint64_t* tmp7 = make_array<uint64_t>( (int32_t)100,  (int32_t)10);
+> /* Variable to read the clear value corresponding to the input variable tmp7 at (9048,1-9048,39) */
+7613,7614c7634,7635
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)512; i0++) {
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)10; i1++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)100; i0++){
+> for (uint32_t i1 =  (uint32_t)0; i1 <  (int32_t)10; i1++){
+7618c7639
+< Arr2DIdxRowM(tmp7, (int32_t)512, (int32_t)10, i0, i1) = (party == SERVER) ? __tmp_in_tmp7 : 0;
+---
+> Arr2DIdxRowM(tmp7, (int32_t)100, (int32_t)10,i0,i1) = (party == SERVER) ? __tmp_in_tmp7 : 0;
+7622,7624c7643,7644
+< uint64_t* tmp8 = make_array<uint64_t>((int32_t)10);
+< /* Variable to read the clear value corresponding to the input variable tmp8
+< * at (8957,1-8957,34) */
+---
+> uint64_t* tmp8 = make_array<uint64_t>( (int32_t)10);
+> /* Variable to read the clear value corresponding to the input variable tmp8 at (9051,1-9051,34) */
+7626c7646
+< for (uint64_t i0 = (uint64_t)0; i0 < (int32_t)10; i0++) {
+---
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)10; i0++){
+7630c7650
+< Arr1DIdxRowM(tmp8, (int32_t)10, i0) = (party == SERVER) ? __tmp_in_tmp8 : 0;
+---
+> Arr1DIdxRowM(tmp8, (int32_t)10,i0) = (party == SERVER) ? __tmp_in_tmp8 : 0;
+7631a7652
+> StartComputation();
+7633,7637c7654,7658
+< int64_t* tmp9 = make_array<int64_t>((int32_t)4);
+< Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)0) = (int32_t)-1;
+< Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)1) = (int32_t)28;
+< Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)2) = (int32_t)28;
+< Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)3) = (int32_t)1;
+---
+> int32_t* tmp9 = make_array<int32_t>( (int32_t)4);
+> Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)0) =  (int32_t)-1;
+> Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)1) =  (int32_t)28;
+> Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)2) =  (int32_t)28;
+> Arr1DIdxRowM(tmp9, (int32_t)4, (int64_t)3) =  (int32_t)1;
+7639c7660
+< uint64_t* tmp10 = make_array<uint64_t>(nImages, (int32_t)28, (int32_t)28, (int32_t)1);
+---
+> uint64_t* tmp10 = make_array<uint64_t>( (int32_t)1,  (int32_t)28,  (int32_t)28,  (int32_t)1);
+7641a7663
+> 
+7642a7665
+> 
+7643a7667
+> 
+7644a7669
+> 
+7648,7659c7673,7683
+< i0 = (int64_t)0;
+< i1 = (int64_t)0;
+< for (uint64_t i2 = (int32_t)0; i2 < nImages; i2++) {
+< for (uint64_t i3 = (int32_t)0; i3 < (int32_t)28; i3++) {
+< for (uint64_t i4 = (int32_t)0; i4 < (int32_t)28; i4++) {
+< for (uint64_t i5 = (int32_t)0; i5 < (int32_t)1; i5++) {
+< Arr4DIdxRowM(tmp10, nImages, (int32_t)28, (int32_t)28, (int32_t)1, i2, i3, i4, i5) 
+< = Arr2DIdxRowM(tmp0, nImages, (int32_t)784, i0, i1);
+< i1 = (i1 + (int64_t)1);
+< if ((i1 == (int64_t)784)) {
+< i1 = (int64_t)0;
+< i0 = (i0 + (int64_t)1);
+---
+> i0 =  (int64_t)0;
+> i1 =  (int64_t)0;
+> for (uint32_t i2 =  (int32_t)0; i2 <  (int32_t)1; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 <  (int32_t)28; i3++){
+> for (uint32_t i4 =  (int32_t)0; i4 <  (int32_t)28; i4++){
+> for (uint32_t i5 =  (int32_t)0; i5 <  (int32_t)1; i5++){
+> Arr4DIdxRowM(tmp10, (int32_t)1, (int32_t)28, (int32_t)28, (int32_t)1,i2,i3,i4,i5) = Arr2DIdxRowM(tmp0, (int32_t)1, (int32_t)784,i0,i1);
+> i1 = (i1 +  (int64_t)1);
+> if ((i1 ==  (int64_t)784)) {
+> i1 =  (int64_t)0;
+> i0 = (i0 +  (int64_t)1);
+7665c7689
+< ClearMemSecret2(nImages, (int32_t)784, tmp0);
+---
+> ClearMemSecret2( (int32_t)1,  (int32_t)784, tmp0);
+7667c7691,7743
+< StartComputation();
+---
+> uint64_t* tmp12 = make_array<uint64_t>( (int32_t)1,  (int32_t)24,  (int32_t)24,  (int32_t)16);
+> Conv2DWrapper( (int32_t)1,  (int32_t)28,  (int32_t)28,  (int32_t)1,  (int32_t)5,  (int32_t)5,  (int32_t)16,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)1,  (int32_t)1, tmp10, tmp1, tmp12);
+> ClearMemSecret4( (int32_t)5,  (int32_t)5,  (int32_t)1,  (int32_t)16, tmp1);
+> ClearMemSecret4( (int32_t)1,  (int32_t)28,  (int32_t)28,  (int32_t)1, tmp10);
+> ScaleUp1( (int32_t)16, tmp2,  (int32_t)12);
+> 
+> uint64_t* tmp15 = make_array<uint64_t>( (int32_t)1,  (int32_t)24,  (int32_t)24,  (int32_t)16);
+> for (uint32_t i0 =  (int32_t)0; i0 <  (int32_t)1; i0++){
+> for (uint32_t i1 =  (int32_t)0; i1 <  (int32_t)24; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 <  (int32_t)24; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 <  (int32_t)16; i3++){
+> Arr4DIdxRowM(tmp15, (int32_t)1, (int32_t)24, (int32_t)24, (int32_t)16,i0,i1,i2,i3) = SecretAdd(Arr4DIdxRowM(tmp12, (int32_t)1, (int32_t)24, (int32_t)24, (int32_t)16,i0,i1,i2,i3), Arr1DIdxRowM(tmp2, (int32_t)16,i3));
+> }
+> }
+> }
+> }
+> ClearMemSecret4( (int32_t)1,  (int32_t)24,  (int32_t)24,  (int32_t)16, tmp12);
+> ClearMemSecret1( (int32_t)16, tmp2);
+> 
+> uint64_t* tmp18 = make_array<uint64_t>( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16);
+> MaxPool( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16,  (int32_t)2,  (int32_t)2,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)2,  (int32_t)2,  (int32_t)1,  (int32_t)24,  (int32_t)24,  (int32_t)16, tmp15, tmp18);
+> ClearMemSecret4( (int32_t)1,  (int32_t)24,  (int32_t)24,  (int32_t)16, tmp15);
+> 
+> uint64_t* tmp20 = make_array<uint64_t>( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16);
+> Relu4( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16, tmp18, tmp20,  (int32_t)12, 1);
+> ClearMemSecret4( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16, tmp18);
+> 
+> uint64_t* tmp22 = make_array<uint64_t>( (int32_t)1,  (int32_t)8,  (int32_t)8,  (int32_t)16);
+> Conv2DWrapper( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16,  (int32_t)5,  (int32_t)5,  (int32_t)16,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)1,  (int32_t)1, tmp20, tmp3, tmp22);
+> ClearMemSecret4( (int32_t)1,  (int32_t)12,  (int32_t)12,  (int32_t)16, tmp20);
+> ClearMemSecret4( (int32_t)5,  (int32_t)5,  (int32_t)16,  (int32_t)16, tmp3);
+> ScaleUp1( (int32_t)16, tmp4,  (int32_t)12);
+> 
+> uint64_t* tmp25 = make_array<uint64_t>( (int32_t)1,  (int32_t)8,  (int32_t)8,  (int32_t)16);
+> for (uint32_t i0 =  (int32_t)0; i0 <  (int32_t)1; i0++){
+> for (uint32_t i1 =  (int32_t)0; i1 <  (int32_t)8; i1++){
+> for (uint32_t i2 =  (int32_t)0; i2 <  (int32_t)8; i2++){
+> for (uint32_t i3 =  (int32_t)0; i3 <  (int32_t)16; i3++){
+> Arr4DIdxRowM(tmp25, (int32_t)1, (int32_t)8, (int32_t)8, (int32_t)16,i0,i1,i2,i3) = SecretAdd(Arr4DIdxRowM(tmp22, (int32_t)1, (int32_t)8, (int32_t)8, (int32_t)16,i0,i1,i2,i3), Arr1DIdxRowM(tmp4, (int32_t)16,i3));
+> }
+> }
+> }
+> }
+> ClearMemSecret1( (int32_t)16, tmp4);
+> ClearMemSecret4( (int32_t)1,  (int32_t)8,  (int32_t)8,  (int32_t)16, tmp22);
+> 
+> uint64_t* tmp28 = make_array<uint64_t>( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16);
+> MaxPool( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16,  (int32_t)2,  (int32_t)2,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)0,  (int32_t)2,  (int32_t)2,  (int32_t)1,  (int32_t)8,  (int32_t)8,  (int32_t)16, tmp25, tmp28);
+> ClearMemSecret4( (int32_t)1,  (int32_t)8,  (int32_t)8,  (int32_t)16, tmp25);
+> 
+> uint64_t* tmp30 = make_array<uint64_t>( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16);
+> Relu4( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16, tmp28, tmp30,  (int32_t)12, 1);
+> ClearMemSecret4( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16, tmp28);
+7669,7741c7745,7747
+< kIsSharedInput = false;
+< uint64_t* tmp12 = make_array<uint64_t>(nImages, (int32_t)28, (int32_t)28, (int32_t)32);
+< Conv2DWrapper(nImages, (int32_t)28, (int32_t)28, (int32_t)1, (int32_t)5,
+< (int32_t)5, (int32_t)32, (int32_t)2, (int32_t)2, (int32_t)2,
+< (int32_t)2, (int32_t)1, (int32_t)1, tmp10, tmp1, tmp12);
+< kIsSharedInput = true;
+< 
+< ClearMemSecret4(nImages, (int32_t)28, (int32_t)28, (int32_t)1, tmp10);
+< ClearMemSecret4((int32_t)5, (int32_t)5, (int32_t)1, (int32_t)32, tmp1);
+< ScaleUp1((int32_t)32, tmp2, kScale); // scale-up bias then add
+< 
+< uint64_t* tmp15 = make_array<uint64_t>(nImages, (int32_t)28, (int32_t)28, (int32_t)32);
+< for (uint64_t i0 = (int32_t)0; i0 < nImages; i0++) {
+< for (uint64_t i1 = (int32_t)0; i1 < (int32_t)28; i1++) {
+< for (uint64_t i2 = (int32_t)0; i2 < (int32_t)28; i2++) {
+< for (uint64_t i3 = (int32_t)0; i3 < (int32_t)32; i3++) {
+< Arr4DIdxRowM(tmp15, nImages, (int32_t)28, (int32_t)28, (int32_t)32, i0, i1, i2, i3) =
+< SecretAdd(Arr4DIdxRowM(tmp12, nImages, (int32_t)28, (int32_t)28, (int32_t)32, i0, i1, i2, i3), Arr1DIdxRowM(tmp2, (int32_t)32, i3));
+< }
+< }
+< }
+< }
+< ClearMemSecret4(nImages, (int32_t)28, (int32_t)28, (int32_t)32, tmp12);
+< ClearMemSecret1((int32_t)32, tmp2);
+< 
+< uint64_t* tmp18 =
+< make_array<uint64_t>(nImages, (int32_t)14, (int32_t)14, (int32_t)32);
+< MaxPool(nImages, (int32_t)14, (int32_t)14, (int32_t)32, (int32_t)2,
+< (int32_t)2, (int32_t)0, (int32_t)0, (int32_t)0, (int32_t)0,
+< (int32_t)2, (int32_t)2, nImages, (int32_t)28, (int32_t)28,
+< (int32_t)32, tmp15, tmp18);
+< ClearMemSecret4(nImages, (int32_t)28, (int32_t)28, (int32_t)32, tmp15);
+< 
+< uint64_t* tmp20 = make_array<uint64_t>(nImages, (int32_t)14, (int32_t)14, (int32_t)32);
+< Relu4(nImages, (int32_t)14, (int32_t)14, (int32_t)32, tmp18, tmp20, kScale, kDoExtractTruncate);
+< ClearMemSecret4(nImages, (int32_t)14, (int32_t)14, (int32_t)32, tmp18);
+< 
+< uint64_t* tmp22 = make_array<uint64_t>(nImages, (int32_t)14, (int32_t)14, (int32_t)64);
+< Conv2DWrapper(nImages, (int32_t)14, (int32_t)14, (int32_t)32, (int32_t)5,
+< (int32_t)5, (int32_t)64, (int32_t)2, (int32_t)2, (int32_t)2,
+< (int32_t)2, (int32_t)1, (int32_t)1, tmp20, tmp3, tmp22);
+< ClearMemSecret4(nImages, (int32_t)14, (int32_t)14, (int32_t)32, tmp20);
+< ClearMemSecret4((int32_t)5, (int32_t)5, (int32_t)32, (int32_t)64, tmp3);
+< ScaleUp1((int32_t)64, tmp4, kScale);
+< 
+< uint64_t* tmp25 = make_array<uint64_t>(nImages, (int32_t)14, (int32_t)14, (int32_t)64);
+< for (uint64_t i0 = (int32_t)0; i0 < nImages; i0++) {
+< for (uint64_t i1 = (int32_t)0; i1 < (int32_t)14; i1++) {
+< for (uint64_t i2 = (int32_t)0; i2 < (int32_t)14; i2++) {
+< for (uint64_t i3 = (int32_t)0; i3 < (int32_t)64; i3++) {
+< Arr4DIdxRowM(tmp25, nImages, (int32_t)14, (int32_t)14, (int32_t)64, i0, i1, i2, i3) =
+< SecretAdd(Arr4DIdxRowM(tmp22, nImages, (int32_t)14, (int32_t)14, (int32_t)64, i0, i1, i2, i3), Arr1DIdxRowM(tmp4, (int32_t)64, i3));
+< }
+< }
+< }
+< }
+< ClearMemSecret4(nImages, (int32_t)14, (int32_t)14, (int32_t)64, tmp22);
+< ClearMemSecret1((int32_t)64, tmp4);
+< 
+< uint64_t* tmp28 = make_array<uint64_t>(nImages, (int32_t)7, (int32_t)7, (int32_t)64);
+< MaxPool(nImages, (int32_t)7, (int32_t)7, (int32_t)64, (int32_t)2, (int32_t)2,
+< (int32_t)0, (int32_t)0, (int32_t)0, (int32_t)0, (int32_t)2,
+< (int32_t)2, nImages, (int32_t)14, (int32_t)14, (int32_t)64, tmp25,
+< tmp28);
+< ClearMemSecret4(nImages, (int32_t)14, (int32_t)14, (int32_t)64, tmp25);
+< 
+< uint64_t* tmp30 = make_array<uint64_t>(nImages, (int32_t)7, (int32_t)7, (int32_t)64);
+< Relu4(nImages, (int32_t)7, (int32_t)7, (int32_t)64, tmp28, tmp30, kScale, kDoExtractTruncate);
+< ClearMemSecret4(nImages, (int32_t)7, (int32_t)7, (int32_t)64, tmp28);
+< 
+< int64_t* tmp32 = make_array<int64_t>((int32_t)2);
+< Arr1DIdxRowM(tmp32, (int32_t)2, (int64_t)0) = (int32_t)-1;
+< Arr1DIdxRowM(tmp32, (int32_t)2, (int64_t)1) = (int32_t)3136;
+---
+> int32_t* tmp32 = make_array<int32_t>( (int32_t)2);
+> Arr1DIdxRowM(tmp32, (int32_t)2, (int64_t)0) =  (int32_t)-1;
+> Arr1DIdxRowM(tmp32, (int32_t)2, (int64_t)1) =  (int32_t)256;
+7743c7749
+< uint64_t* tmp33 = make_array<uint64_t>(nImages, (int32_t)3136);
+---
+> uint64_t* tmp33 = make_array<uint64_t>( (int32_t)1,  (int32_t)256);
+7745a7752
+> 
+7746a7754
+> 
+7747a7756
+> 
+7748a7758
+> 
+7749a7760
+> 
+7751,7768c7762,7778
+< i6 = (int64_t)0;
+< i7 = (int64_t)0;
+< i8 = (int64_t)0;
+< i9 = (int64_t)0;
+< for (uint64_t i10 = (int32_t)0; i10 < nImages; i10++) {
+< for (uint64_t i11 = (int32_t)0; i11 < (int32_t)3136; i11++) {
+< Arr2DIdxRowM(tmp33, nImages, (int32_t)3136, i10, i11) = Arr4DIdxRowM(
+< tmp30, nImages, (int32_t)7, (int32_t)7, (int32_t)64, i6, i7, i8, i9);
+< i9 = (i9 + (int64_t)1);
+< if ((i9 == (int64_t)64)) {
+< i9 = (int64_t)0;
+< i8 = (i8 + (int64_t)1);
+< if ((i8 == (int64_t)7)) {
+< i8 = (int64_t)0;
+< i7 = (i7 + (int64_t)1);
+< if ((i7 == (int64_t)7)) {
+< i7 = (int64_t)0;
+< i6 = (i6 + (int64_t)1);
+---
+> i6 =  (int64_t)0;
+> i7 =  (int64_t)0;
+> i8 =  (int64_t)0;
+> i9 =  (int64_t)0;
+> for (uint32_t i10 =  (int32_t)0; i10 <  (int32_t)1; i10++){
+> for (uint32_t i11 =  (int32_t)0; i11 <  (int32_t)256; i11++){
+> Arr2DIdxRowM(tmp33, (int32_t)1, (int32_t)256,i10,i11) = Arr4DIdxRowM(tmp30, (int32_t)1, (int32_t)4, (int32_t)4, (int32_t)16,i6,i7,i8,i9);
+> i9 = (i9 +  (int64_t)1);
+> if ((i9 ==  (int64_t)16)) {
+> i9 =  (int64_t)0;
+> i8 = (i8 +  (int64_t)1);
+> if ((i8 ==  (int64_t)4)) {
+> i8 =  (int64_t)0;
+> i7 = (i7 +  (int64_t)1);
+> if ((i7 ==  (int64_t)4)) {
+> i7 =  (int64_t)0;
+> i6 = (i6 +  (int64_t)1);
+7774,7807c7784,7795
+< ClearMemSecret4(nImages, (int32_t)7, (int32_t)7, (int32_t)64, tmp30);
+< 
+< uint64_t* tmp35 = make_array<uint64_t>(nImages, (int32_t)512);
+< MatMul2D(nImages, (int32_t)3136, (int32_t)512, tmp33, tmp5, tmp35, 0);
+< ClearMemSecret2(nImages, (int32_t)3136, tmp33);
+< ClearMemSecret2((int32_t)3136, (int32_t)512, tmp5);
+< ScaleUp1((int32_t)512, tmp6, kScale);
+< 
+< uint64_t* tmp38 = make_array<uint64_t>(nImages, (int32_t)512);
+< for (uint64_t i0 = (int32_t)0; i0 < nImages; i0++) {
+< for (uint64_t i1 = (int32_t)0; i1 < (int32_t)512; i1++) {
+< Arr2DIdxRowM(tmp38, nImages, (int32_t)512, i0, i1) =
+< SecretAdd(Arr2DIdxRowM(tmp35, nImages, (int32_t)512, i0, i1),
+< Arr1DIdxRowM(tmp6, (int32_t)512, i1));
+< }
+< }
+< ClearMemSecret1((int32_t)512, tmp6);
+< ClearMemSecret2(nImages, (int32_t)512, tmp35);
+< 
+< uint64_t* tmp41 = make_array<uint64_t>(nImages, (int32_t)512);
+< Relu2(nImages, (int32_t)512, tmp38, tmp41, kScale, kDoExtractTruncate);
+< ClearMemSecret2(nImages, (int32_t)512, tmp38);
+< 
+< uint64_t* tmp43 = make_array<uint64_t>(nImages, (int32_t)10);
+< MatMul2D(nImages, (int32_t)512, (int32_t)10, tmp41, tmp7, tmp43, 0);
+< ClearMemSecret2((int32_t)512, (int32_t)10, tmp7);
+< ClearMemSecret2(nImages, (int32_t)512, tmp41);
+< ScaleUp1((int32_t)10, tmp8, kScale);
+< uint64_t* tmp46 = make_array<uint64_t>(nImages, (int32_t)10);
+< for (uint64_t i0 = (int32_t)0; i0 < nImages; i0++) {
+< for (uint64_t i1 = (int32_t)0; i1 < (int32_t)10; i1++) {
+< Arr2DIdxRowM(tmp46, nImages, (int32_t)10, i0, i1) =
+< SecretAdd(Arr2DIdxRowM(tmp43, nImages, (int32_t)10, i0, i1),
+< Arr1DIdxRowM(tmp8, (int32_t)10, i1));
+---
+> ClearMemSecret4( (int32_t)1,  (int32_t)4,  (int32_t)4,  (int32_t)16, tmp30);
+> 
+> uint64_t* tmp35 = make_array<uint64_t>( (int32_t)1,  (int32_t)100);
+> MatMul2D( (int32_t)1,  (int32_t)256,  (int32_t)100, tmp33, tmp5, tmp35, 0);
+> ClearMemSecret2( (int32_t)1,  (int32_t)256, tmp33);
+> ClearMemSecret2( (int32_t)256,  (int32_t)100, tmp5);
+> ScaleUp1( (int32_t)100, tmp6,  (int32_t)12);
+> 
+> uint64_t* tmp38 = make_array<uint64_t>( (int32_t)1,  (int32_t)100);
+> for (uint32_t i0 =  (int32_t)0; i0 <  (int32_t)1; i0++){
+> for (uint32_t i1 =  (int32_t)0; i1 <  (int32_t)100; i1++){
+> Arr2DIdxRowM(tmp38, (int32_t)1, (int32_t)100,i0,i1) = SecretAdd(Arr2DIdxRowM(tmp35, (int32_t)1, (int32_t)100,i0,i1), Arr1DIdxRowM(tmp6, (int32_t)100,i1));
+7810,7811c7798,7799
+< ClearMemSecret1((int32_t)10, tmp8);
+< ClearMemSecret2(nImages, (int32_t)10, tmp43);
+---
+> ClearMemSecret2( (int32_t)1,  (int32_t)100, tmp35);
+> ClearMemSecret1( (int32_t)100, tmp6);
+7813,7814c7801,7803
+< ScaleDown2(nImages, (int32_t)10, tmp46, kScale); // from 2^{2*k} precision to 2^k precision
+< EndComputation();
+---
+> uint64_t* tmp41 = make_array<uint64_t>( (int32_t)1,  (int32_t)100);
+> Relu2( (int32_t)1,  (int32_t)100, tmp38, tmp41,  (int32_t)12, 1);
+> ClearMemSecret2( (int32_t)1,  (int32_t)100, tmp38);
+7816,7825c7805,7814
+< for (uint64_t i0 = (uint64_t)0; i0 < nImages; i0++) {
+< double max_pro = 1e-30;
+< uint64_t yhat = -1;
+< 
+< for (uint64_t i1 = (uint64_t)0; i1 < (int32_t)10; i1++) {
+< int64_t _pro = funcReconstruct2PCCons(Arr2DIdxRowM(tmp46, nImages, (int32_t)10, i0, i1), 2);
+< double pro = _pro / std::pow(2., kScale);
+< if (pro > max_pro) {
+< max_pro = pro;
+< yhat = i1;
+---
+> uint64_t* tmp43 = make_array<uint64_t>( (int32_t)1,  (int32_t)10);
+> MatMul2D( (int32_t)1,  (int32_t)100,  (int32_t)10, tmp41, tmp7, tmp43, 0);
+> ClearMemSecret2( (int32_t)1,  (int32_t)100, tmp41);
+> ClearMemSecret2( (int32_t)100,  (int32_t)10, tmp7);
+> ScaleUp1( (int32_t)10, tmp8,  (int32_t)12);
+> 
+> uint64_t* tmp46 = make_array<uint64_t>( (int32_t)1,  (int32_t)10);
+> for (uint32_t i0 =  (int32_t)0; i0 <  (int32_t)1; i0++){
+> for (uint32_t i1 =  (int32_t)0; i1 <  (int32_t)10; i1++){
+> Arr2DIdxRowM(tmp46, (int32_t)1, (int32_t)10,i0,i1) = SecretAdd(Arr2DIdxRowM(tmp43, (int32_t)1, (int32_t)10,i0,i1), Arr1DIdxRowM(tmp8, (int32_t)10,i1));
+7827d7815
+< if (party == CLIENT) std::cout << pro << " ";
+7829c7817,7818
+< if (party == CLIENT) std::cout << std::endl;
+---
+> ClearMemSecret1( (int32_t)10, tmp8);
+> ClearMemSecret2( (int32_t)1,  (int32_t)10, tmp43);
+7831,7833c7820,7827
+< if (party == CLIENT) {
+< std::cout << "image " << i0 << " is predicted to class " << yhat << std::endl;
+< }
+---
+> int32_t tmp49 =  (int32_t)1;
+> 
+> uint64_t* tmp50 = make_array<uint64_t>( (int32_t)1);
+> ArgMax1( (int32_t)1,  (int32_t)1,  (int32_t)10, tmp46, tmp49, tmp50);
+> ClearMemSecret2( (int32_t)1,  (int32_t)10, tmp46);
+> EndComputation();
+> for (uint32_t i0 =  (uint32_t)0; i0 <  (int32_t)1; i0++){
+> cout << (funcReconstruct2PCCons(Arr1DIdxRowM(tmp50, (int32_t)1,i0), 2)) << endl;
+7834a7829
+> cout << "main Lenet new" << endl;

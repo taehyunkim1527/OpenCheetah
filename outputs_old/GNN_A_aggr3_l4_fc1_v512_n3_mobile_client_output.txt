@@ -1,0 +1,1264 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997685
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 1536 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.206
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.706
+Truncate #1 on 1536 points by 12 bits
+Time in sec for current matmul = 0.62
+1024 => -22441828750
+[31mMatMul Output Mismatch[0m
+Relu #3 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.715
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.41
+Time in sec for current matmul = 0.216
+4083142790 => -57255581612
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #2 on 1536 points by 12 bits
+Time in sec for current matmul = 0.628
+1024 => -38816391566
+[31mMatMul Output Mismatch[0m
+Relu #7 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.712
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.414
+Time in sec for current matmul = 0.209
+5321585372 => 57729566948
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #3 on 1536 points by 12 bits
+Time in sec for current matmul = 0.623
+1024 => -33514791310
+[31mMatMul Output Mismatch[0m
+Relu #11 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.712
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.411
+Time in sec for current matmul = 0.212
+21026931810 => 44840366150
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #4 on 1536 points by 12 bits
+Time in sec for current matmul = 0.623
+1024 => -20160127374
+[31mMatMul Output Mismatch[0m
+Relu #15 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.712
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.411
+Time in sec for current matmul = 0.213
+12329073824 => 20447614428
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Thread i = 0, total data sent till now = 10729768
+Thread i = 1, total data sent till now = 1943527
+Thread i = 2, total data sent till now = 1781047
+Thread i = 3, total data sent till now = 1943527
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 22531201 microseconds.
+Total data sent = 8.79425 MiB.
+Number of rounds = 323
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 3.55 seconds.
+Total time in BatchNorm = 0.13 seconds.
+Total time in Truncation = 4.253 seconds.
+Total time in Relu = 6.377 seconds.
+Total time in MaxPool = 5.646 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 8.09667 MiB.
+BatchNorm data sent = 0.178632 MiB.
+Truncation data sent = 0.169983 MiB.
+Relu data sent = 0.236908 MiB.
+Maxpool data sent = 0.112061 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+4992095
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992095
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992095
+4992094
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992095
+4992095
+4992094
+4992095
+4992094
+4992094
+4992095
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992094
+4992095
+4992094
+4992094
+4992095
+4992094
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997705
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 1536 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.207
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.706
+Truncate #1 on 1536 points by 12 bits
+Time in sec for current matmul = 0.621
+1024 => -53922945444
+[31mMatMul Output Mismatch[0m
+Relu #3 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.712
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.409
+Time in sec for current matmul = 0.213
+5090063294 => 7002847756
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #2 on 1536 points by 12 bits
+Time in sec for current matmul = 0.626
+1024 => 27882759772
+[31mMatMul Output Mismatch[0m
+Relu #7 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.711
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.41
+Time in sec for current matmul = 0.212
+5907740678 => -33690453210
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #3 on 1536 points by 12 bits
+Time in sec for current matmul = 0.625
+1024 => 44257322588
+[31mMatMul Output Mismatch[0m
+Relu #11 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.711
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.411
+Time in sec for current matmul = 0.213
+3695312316 => -3760503088
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Truncate #4 on 1536 points by 12 bits
+Time in sec for current matmul = 0.624
+1024 => 2247173724
+[31mMatMul Output Mismatch[0m
+Relu #15 on 1536 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.712
+Maxpool 4 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 1.411
+Time in sec for current matmul = 0.213
+6709619486 => 546141700
+[31mMatMul Output Mismatch[0m
+Relu #17 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.705
+Thread i = 0, total data sent till now = 10729836
+Thread i = 1, total data sent till now = 1943527
+Thread i = 2, total data sent till now = 1781047
+Thread i = 3, total data sent till now = 1943527
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 22403282 microseconds.
+Total data sent = 8.7943 MiB.
+Number of rounds = 323
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 3.554 seconds.
+Total time in BatchNorm = 0.13 seconds.
+Total time in Truncation = 4.252 seconds.
+Total time in Relu = 6.372 seconds.
+Total time in MaxPool = 5.641 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 8.09676 MiB.
+BatchNorm data sent = 0.178584 MiB.
+Truncation data sent = 0.169983 MiB.
+Relu data sent = 0.236908 MiB.
+Maxpool data sent = 0.112061 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133337
+133337
+133336
+133337
+133336
+133337
+133337
+133336
+133337
+133337
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133337
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133337
+133337
+133336
+133336
+133337
+133337
+133337
+133337
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133337
+133337
+133337
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133337
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133337
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133337
+133337
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133337
+133337
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133337
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133336
+133336
+133337
+133337
+133337
+133337
+133337
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133337
+133337
+133337
+133337
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133337
+133336
+133337
+133337
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133337
+133336
+133337
+133337
+133337
+133336
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133337
+133337
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133336
+133337
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133337
+133336
+133336
+133337
+133337
+133336
+133337
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133336
+133337
+133337
+133336
+133337
+133336
+133337
+133336
+133336
+133336
+133336
+133336
+133337
+133337
+133336
+133337
+133336
+133336
+133336
+133336
+133337
+133336
+133336
+133337
+133336
+133337
+133336
+133337
+133336
+133336
+133337

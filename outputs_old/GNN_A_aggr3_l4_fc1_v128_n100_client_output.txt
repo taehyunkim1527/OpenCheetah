@@ -1,0 +1,496 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997793
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 12800 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.013
+512 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #1 on 12800 points by 12 bits
+Time in sec for current matmul = 1.314
+256 => 45747768914
+[31mMatMul Output Mismatch[0m
+Relu #3 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.073
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.062
+Time in sec for current matmul = 0.013
+1551056618 => -11014233588
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #2 on 12800 points by 12 bits
+Time in sec for current matmul = 1.311
+256 => -24045449646
+[31mMatMul Output Mismatch[0m
+Relu #7 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.048
+Maxpool 2 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.062
+Time in sec for current matmul = 0.018
+1738748802 => -24855245576
+[31mMatMul Output Mismatch[0m
+Relu #9 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #3 on 12800 points by 12 bits
+Time in sec for current matmul = 1.309
+256 => -41158209966
+[31mMatMul Output Mismatch[0m
+Relu #11 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.051
+Maxpool 3 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.06
+Time in sec for current matmul = 0.012
+1394491598 => 33816291762
+[31mMatMul Output Mismatch[0m
+Relu #13 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #4 on 12800 points by 12 bits
+Time in sec for current matmul = 1.318
+256 => 52861308498
+[31mMatMul Output Mismatch[0m
+Relu #15 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.058
+Maxpool 4 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.062
+Time in sec for current matmul = 0.014
+3741993450 => 39754585346
+[31mMatMul Output Mismatch[0m
+Relu #17 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Thread i = 0, total data sent till now = 53761462
+Thread i = 1, total data sent till now = 3488739
+Thread i = 2, total data sent till now = 2176515
+Thread i = 3, total data sent till now = 3488739
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 6109149 microseconds.
+Total data sent = 53.1568 MiB.
+Number of rounds = 5755
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 5.322 seconds.
+Total time in BatchNorm = 0.031 seconds.
+Total time in Truncation = 0.208 seconds.
+Total time in Relu = 0.235 seconds.
+Total time in MaxPool = 0.246 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 48.2218 MiB.
+BatchNorm data sent = 0.71443 MiB.
+Truncation data sent = 1.38425 MiB.
+Relu data sent = 1.40419 MiB.
+Maxpool data sent = 1.43207 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+9705711
+9705711
+9705711
+9705710
+9705711
+9705711
+9705711
+9705710
+9705711
+9705711
+9705711
+9705711
+9705710
+9705710
+9705710
+9705711
+9705711
+9705710
+9705711
+9705710
+9705711
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705711
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705710
+9705710
+9705710
+9705711
+9705711
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705711
+9705710
+9705710
+9705711
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705710
+9705710
+9705710
+9705710
+9705710
+9705711
+9705711
+9705711
+9705710
+9705710
+9705710
+9705711
+9705710
+9705711
+9705711
+9705710
+9705710
+9705711
+9705711
+9705710
+9705710
+9705711
+9705711
+9705710
+9705710
+9705710
+9705711
+9705711
+9705711
+9705710
+9705710
+9705710
+9705711
+9705711
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997837
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 12800 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.011
+512 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #1 on 12800 points by 12 bits
+Time in sec for current matmul = 1.3
+256 => 40426600724
+[31mMatMul Output Mismatch[0m
+Relu #3 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.045
+Maxpool 1 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.059
+Time in sec for current matmul = 0.016
+1675409188 => 30276201924
+[31mMatMul Output Mismatch[0m
+Relu #5 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #2 on 12800 points by 12 bits
+Time in sec for current matmul = 1.306
+256 => -29098182380
+[31mMatMul Output Mismatch[0m
+Relu #7 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.048
+Maxpool 2 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.061
+Time in sec for current matmul = 0.014
+3288288040 => 50127310344
+[31mMatMul Output Mismatch[0m
+Relu #9 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #3 on 12800 points by 12 bits
+Time in sec for current matmul = 1.302
+256 => 60961913108
+[31mMatMul Output Mismatch[0m
+Relu #11 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.051
+Maxpool 3 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.062
+Time in sec for current matmul = 0.014
+4860381958 => 1893635538
+[31mMatMul Output Mismatch[0m
+Relu #13 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Truncate #4 on 12800 points by 12 bits
+Time in sec for current matmul = 1.301
+256 => -29098182380
+[31mMatMul Output Mismatch[0m
+Relu #15 on 12800 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.045
+Maxpool 4 called N=128, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 0.06
+Time in sec for current matmul = 0.017
+1684745048 => -38095845041
+[31mMatMul Output Mismatch[0m
+Relu #17 on 128 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.001
+Thread i = 0, total data sent till now = 53761869
+Thread i = 1, total data sent till now = 3488739
+Thread i = 2, total data sent till now = 2176515
+Thread i = 3, total data sent till now = 3488739
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 6007262 microseconds.
+Total data sent = 53.1571 MiB.
+Number of rounds = 5755
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 5.281 seconds.
+Total time in BatchNorm = 0.03 seconds.
+Total time in Truncation = 0.203 seconds.
+Total time in Relu = 0.194 seconds.
+Total time in MaxPool = 0.242 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 48.2221 MiB.
+BatchNorm data sent = 0.71448 MiB.
+Truncation data sent = 1.38425 MiB.
+Relu data sent = 1.40419 MiB.
+Maxpool data sent = 1.43207 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1

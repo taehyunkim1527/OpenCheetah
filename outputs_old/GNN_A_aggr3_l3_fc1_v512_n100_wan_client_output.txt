@@ -1,0 +1,1238 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997815
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 51200 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.09
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.286
+Truncate #1 on 51200 points by 12 bits
+Time in sec for current matmul = 9.08
+1024 => 45407055298
+[31mMatMul Output Mismatch[0m
+Relu #3 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.43
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.277
+Time in sec for current matmul = 0.172
+4518645654 => -49231175416
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Truncate #2 on 51200 points by 12 bits
+Time in sec for current matmul = 9.04
+1024 => -38479024702
+[31mMatMul Output Mismatch[0m
+Relu #7 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.486
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.274
+Time in sec for current matmul = 0.173
+4891445090 => 61010666852
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Truncate #3 on 51200 points by 12 bits
+Time in sec for current matmul = 9.098
+1024 => -26332320318
+[31mMatMul Output Mismatch[0m
+Relu #11 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.425
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.287
+Time in sec for current matmul = 0.171
+19531237122 => -6570948804
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Thread i = 0, total data sent till now = 157571399
+Thread i = 1, total data sent till now = 6970407
+Thread i = 2, total data sent till now = 3048167
+Thread i = 3, total data sent till now = 6970407
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 117962999 microseconds.
+Total data sent = 159.63 MiB.
+Number of rounds = 4321
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 27.824 seconds.
+Total time in BatchNorm = 0.264 seconds.
+Total time in Truncation = 1.846 seconds.
+Total time in Relu = 2.513 seconds.
+Total time in MaxPool = 84.838 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 144.784 MiB.
+BatchNorm data sent = 2.32163 MiB.
+Truncation data sent = 4.15057 MiB.
+Relu data sent = 4.21298 MiB.
+Maxpool data sent = 4.16025 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997807
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 51200 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.09
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.286
+Truncate #1 on 51200 points by 12 bits
+Time in sec for current matmul = 9.096
+1024 => -37540221468
+[31mMatMul Output Mismatch[0m
+Relu #3 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.432
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.278
+Time in sec for current matmul = 0.171
+3970240460 => -49678981258
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Truncate #2 on 51200 points by 12 bits
+Time in sec for current matmul = 8.996
+1024 => 57284603364
+[31mMatMul Output Mismatch[0m
+Relu #7 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.435
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.268
+Time in sec for current matmul = 0.171
+5608311996 => -4661862240
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.286
+Truncate #3 on 51200 points by 12 bits
+Time in sec for current matmul = 9.133
+1024 => -27876545053
+[31mMatMul Output Mismatch[0m
+Relu #11 on 51200 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.422
+Maxpool 3 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=100
+Time in sec for current maxpool = 28.29
+Time in sec for current matmul = 0.172
+5117653244 => 37804096118
+[31mMatMul Output Mismatch[0m
+Relu #13 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Thread i = 0, total data sent till now = 157572285
+Thread i = 1, total data sent till now = 6970407
+Thread i = 2, total data sent till now = 3048167
+Thread i = 3, total data sent till now = 6970407
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 117937236 microseconds.
+Total data sent = 159.631 MiB.
+Number of rounds = 4321
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 27.829 seconds.
+Total time in BatchNorm = 0.264 seconds.
+Total time in Truncation = 1.855 seconds.
+Total time in Relu = 2.451 seconds.
+Total time in MaxPool = 84.836 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 144.785 MiB.
+BatchNorm data sent = 2.32163 MiB.
+Truncation data sent = 4.15057 MiB.
+Relu data sent = 4.21298 MiB.
+Maxpool data sent = 4.16025 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229516
+9229517
+9229516
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229516
+9229516
+9229516
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229516
+9229516
+9229516
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229516
+9229516
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229516
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229516
+9229517
+9229516
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229517
+9229516
+9229516
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229516
+9229517
+9229517
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516
+9229517
+9229516
+9229517
+9229516
+9229516
+9229516
+9229517
+9229516
+9229516
+9229517
+9229517
+9229516

@@ -1,0 +1,700 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997750
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 768 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.064
+1024 => -1
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #1 on 768 points by 12 bits
+Time in sec for current matmul = 0.196
+512 => 21892930010
+[31mMatMul Output Mismatch[0m
+Relu #3 on 768 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.287
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 0.568
+Time in sec for current matmul = 0.07
+1500467614 => -30062444634
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #2 on 768 points by 12 bits
+Time in sec for current matmul = 0.201
+512 => 46991645146
+[31mMatMul Output Mismatch[0m
+Relu #7 on 768 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.287
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 0.568
+Time in sec for current matmul = 0.072
+3848553728 => 45867927936
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Thread i = 0, total data sent till now = 4446630
+Thread i = 1, total data sent till now = 1782415
+Thread i = 2, total data sent till now = 1740527
+Thread i = 3, total data sent till now = 1782415
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 4175278 microseconds.
+Total data sent = 2.45618 MiB.
+Number of rounds = 171
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0.603 seconds.
+Total time in BatchNorm = 0.056 seconds.
+Total time in Truncation = 0.894 seconds.
+Total time in Relu = 1.426 seconds.
+Total time in MaxPool = 1.136 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 2.14324 MiB.
+BatchNorm data sent = 0.178575 MiB.
+Truncation data sent = 0.0429382 MiB.
+Relu data sent = 0.0631104 MiB.
+Maxpool data sent = 0.0283203 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+11198226
+11198225
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+11198225
+11198226
+11198225
+11198226
+11198226
+11198225
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198225
+11198226
+11198226
+11198226
+11198225
+11198225
+11198226
+11198225
+11198225
+11198226
+11198226
+11198225
+11198225
+11198225
+11198225
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+11198226
+11198225
+11198225
+11198226
+11198226
+11198226
+11198225
+11198225
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198226
+11198225
+11198225
+11198225
+11198225
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198226
+11198225
+11198225
+11198225
+11198226
+11198225
+11198226
+11198226
+11198226
+11198225
+11198226
+11198225
+11198226
+11198225
+11198225
+11198226
+11198225
+11198225
+11198225
+11198226
+11198226
+11198226
+11198225
+11198226
+11198226
+11198225
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997763
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 768 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.067
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #1 on 768 points by 12 bits
+Time in sec for current matmul = 0.203
+512 => 58372685720
+[31mMatMul Output Mismatch[0m
+Relu #3 on 768 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.287
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 0.568
+Time in sec for current matmul = 0.072
+3634302752 => -64921002974
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #2 on 768 points by 12 bits
+Time in sec for current matmul = 0.207
+512 => 52198670232
+[31mMatMul Output Mismatch[0m
+Relu #7 on 768 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.287
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=3
+Time in sec for current maxpool = 0.568
+Time in sec for current matmul = 0.071
+3109465022 => 52112562544
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Thread i = 0, total data sent till now = 4446794
+Thread i = 1, total data sent till now = 1782415
+Thread i = 2, total data sent till now = 1740527
+Thread i = 3, total data sent till now = 1782415
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 4192968 microseconds.
+Total data sent = 2.45633 MiB.
+Number of rounds = 171
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 0.62 seconds.
+Total time in BatchNorm = 0.055 seconds.
+Total time in Truncation = 0.894 seconds.
+Total time in Relu = 1.426 seconds.
+Total time in MaxPool = 1.136 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 2.14339 MiB.
+BatchNorm data sent = 0.178568 MiB.
+Truncation data sent = 0.0429382 MiB.
+Relu data sent = 0.0631104 MiB.
+Maxpool data sent = 0.0283203 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+12722795
+12722795
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722794
+12722795
+12722795
+12722794
+12722794
+12722794
+12722794
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722794
+12722795
+12722794
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722795
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722794
+12722794
+12722794
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722795
+12722794
+12722794
+12722794
+12722795
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722794
+12722795
+12722795
+12722795
+12722794
+12722794
+12722794
+12722795
+12722795
+12722795
+12722794
+12722794
+12722794
+12722794
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722794
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722794
+12722795
+12722795
+12722795
+12722794
+12722795
+12722794
+12722794
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722794
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722794
+12722794
+12722795
+12722794
+12722795
+12722794
+12722794
+12722795
+12722795
+12722794
+12722795
+12722795
+12722795
+12722795
+12722795
+12722794
+12722795
+12722795
+12722794
+12722794
+12722794
+12722795
+12722794
+12722795
+12722795
+12722794
+12722795

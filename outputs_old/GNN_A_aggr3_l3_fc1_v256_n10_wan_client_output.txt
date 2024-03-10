@@ -1,0 +1,726 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997719
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 2560 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.071
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #1 on 2560 points by 12 bits
+Time in sec for current matmul = 0.695
+512 => 21733555676
+[31mMatMul Output Mismatch[0m
+Relu #3 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.297
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.552
+Time in sec for current matmul = 0.07
+1175491214 => 51208708558
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #2 on 2560 points by 12 bits
+Time in sec for current matmul = 0.69
+512 => 67770236380
+[31mMatMul Output Mismatch[0m
+Relu #7 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.295
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.56
+Time in sec for current matmul = 0.073
+8000677278 => -17368335516
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #3 on 2560 points by 12 bits
+Time in sec for current matmul = 0.696
+512 => 20928249308
+[31mMatMul Output Mismatch[0m
+Relu #11 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.297
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.555
+Time in sec for current matmul = 0.072
+1563613026 => 39574231198
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Thread i = 0, total data sent till now = 10742411
+Thread i = 1, total data sent till now = 1992767
+Thread i = 2, total data sent till now = 1793775
+Thread i = 3, total data sent till now = 1992767
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 13575746 microseconds.
+Total data sent = 8.91233 MiB.
+Number of rounds = 541
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 2.367 seconds.
+Total time in BatchNorm = 0.057 seconds.
+Total time in Truncation = 1.34 seconds.
+Total time in Relu = 2.025 seconds.
+Total time in MaxPool = 7.667 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 8.0966 MiB.
+BatchNorm data sent = 0.178589 MiB.
+Truncation data sent = 0.209381 MiB.
+Relu data sent = 0.236603 MiB.
+Maxpool data sent = 0.191162 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661678
+9661678
+9661678
+9661679
+9661678
+9661678
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661678
+9661678
+9661679
+9661678
+9661678
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661678
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661678
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661678
+9661678
+9661679
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661678
+9661678
+9661678
+9661678
+9661678
+9661678
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661678
+9661678
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661678
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661678
+9661679
+9661679
+9661679
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661679
+9661678
+9661678
+9661679
+9661679
+9661678
+9661679
+9661679
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997786
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 2560 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.071
+1024 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #1 on 2560 points by 12 bits
+Time in sec for current matmul = 0.69
+512 => -66931289284
+[31mMatMul Output Mismatch[0m
+Relu #3 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.297
+Maxpool 1 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.553
+Time in sec for current matmul = 0.069
+2144722046 => 15082543160
+[31mMatMul Output Mismatch[0m
+Relu #5 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #2 on 2560 points by 12 bits
+Time in sec for current matmul = 0.69
+512 => -57200504004
+[31mMatMul Output Mismatch[0m
+Relu #7 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.297
+Maxpool 2 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.554
+Time in sec for current matmul = 0.07
+3755356496 => 3138890632
+[31mMatMul Output Mismatch[0m
+Relu #9 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Truncate #3 on 2560 points by 12 bits
+Time in sec for current matmul = 0.693
+512 => 50777658172
+[31mMatMul Output Mismatch[0m
+Relu #11 on 2560 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.296
+Maxpool 3 called N=256, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 2.555
+Time in sec for current matmul = 0.067
+2762469596 => 4779985148
+[31mMatMul Output Mismatch[0m
+Relu #13 on 256 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.284
+Thread i = 0, total data sent till now = 10742495
+Thread i = 1, total data sent till now = 1992767
+Thread i = 2, total data sent till now = 1793775
+Thread i = 3, total data sent till now = 1992767
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 13558393 microseconds.
+Total data sent = 8.91235 MiB.
+Number of rounds = 541
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 2.35 seconds.
+Total time in BatchNorm = 0.057 seconds.
+Total time in Truncation = 1.341 seconds.
+Total time in Relu = 2.026 seconds.
+Total time in MaxPool = 7.662 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 8.09664 MiB.
+BatchNorm data sent = 0.178566 MiB.
+Truncation data sent = 0.209381 MiB.
+Relu data sent = 0.236603 MiB.
+Maxpool data sent = 0.191162 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+1166990
+1166990
+1166990
+1166989
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166989
+1166989
+1166989
+1166989
+1166989
+1166989
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166990
+1166989
+1166990
+1166989
+1166989
+1166990
+1166990
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166990
+1166989
+1166989
+1166990
+1166989
+1166989
+1166989
+1166989
+1166989
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166989
+1166989
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166990
+1166990
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166990
+1166990
+1166990
+1166990
+1166989
+1166989
+1166990
+1166989
+1166989
+1166989
+1166990
+1166990
+1166990
+1166989
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166989
+1166989
+1166989
+1166990
+1166989
+1166990
+1166989
+1166989
+1166990
+1166989
+1166989
+1166990
+1166990
+1166989
+1166990
+1166990
+1166990
+1166990
+1166990
+1166990
+1166989
+1166990
+1166990
+1166990
+1166989
+1166990
+1166990
+1166990
+1166989
+1166990
+1166990
+1166989
+1166990
+1166989
+1166990
+1166989
+1166990
+1166990
+1166989
+1166989
+1166989
+1166989
+1166989
+1166989

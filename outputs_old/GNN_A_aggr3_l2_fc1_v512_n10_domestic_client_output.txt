@@ -1,0 +1,1212 @@
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997732
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 5120 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.082
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.146
+Truncate #1 on 5120 points by 12 bits
+Time in sec for current matmul = 0.814
+1026 => -41612380266
+[31mMatMul Output Mismatch[0m
+Relu #3 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.166
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 1.311
+Time in sec for current matmul = 0.087
+2843468788 => -52327390688
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.149
+Truncate #2 on 5120 points by 12 bits
+Time in sec for current matmul = 0.812
+1026 => 48783259542
+[31mMatMul Output Mismatch[0m
+Relu #7 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.166
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 1.309
+Time in sec for current matmul = 0.085
+3649125680 => 35480214484
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.146
+Thread i = 0, total data sent till now = 13948321
+Thread i = 1, total data sent till now = 2082279
+Thread i = 2, total data sent till now = 1816087
+Thread i = 3, total data sent till now = 2082279
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 6348696 microseconds.
+Total data sent = 12.1617 MiB.
+Number of rounds = 367
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 1.88 seconds.
+Total time in BatchNorm = 0.066 seconds.
+Total time in Truncation = 0.499 seconds.
+Total time in Relu = 0.773 seconds.
+Total time in MaxPool = 2.62 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 10.9541 MiB.
+BatchNorm data sent = 0.357211 MiB.
+Truncation data sent = 0.27887 MiB.
+Relu data sent = 0.319427 MiB.
+Maxpool data sent = 0.252136 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662162
+8662162
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662162
+8662163
+8662162
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662162
+8662162
+8662162
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662163
+8662163
+8662162
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662162
+8662162
+8662163
+8662163
+8662163
+8662163
+8662162
+8662162
+8662163
+8662163
+8662162
+Using Eigen for Matmul
+Doing BaseOT ...
+using silent ot pack
+using silent ot pack
+using silent ot pack
+using silent ot pack
+After one-time setup, communication
+Thread i = 0, total data sent till now = 1997823
+Thread i = 1, total data sent till now = 1726247
+Thread i = 2, total data sent till now = 1726247
+Thread i = 3, total data sent till now = 1726247
+-----------Syncronizing-----------
+secret_share_mod: 137438953472 bitlength: 37
+backend: Ring-SilentOT-Cheetah
+-----------Syncronized - now starting execution-----------
+HomBN #1 via element-wise mult on 5120 points
+[31m4 ==> 0[0m
+[31mElemWiseSecretVectorMult Output Mismatch[0m
+Time in sec for current matmul = 0.08
+2048 => 0
+[31mMatMul Output Mismatch[0m
+Relu #1 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.146
+Truncate #1 on 5120 points by 12 bits
+Time in sec for current matmul = 0.816
+1026 => 58135675636
+[31mMatMul Output Mismatch[0m
+Relu #3 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.166
+Maxpool 1 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 1.308
+Time in sec for current matmul = 0.079
+4879977868 => 64857485350
+[31mMatMul Output Mismatch[0m
+Relu #5 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.149
+Truncate #2 on 5120 points by 12 bits
+Time in sec for current matmul = 0.823
+1026 => 66390065908
+[31mMatMul Output Mismatch[0m
+Relu #7 on 5120 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.166
+Maxpool 2 called N=512, H=1, W=1, C=1, ksizeH=1, ksizeW=10
+Time in sec for current maxpool = 1.307
+Time in sec for current matmul = 0.087
+18528513502 => -18210603926
+[31mMatMul Output Mismatch[0m
+Relu #9 on 512 points, truncate=1 by 12 bits
+Time in sec for current relu = 0.149
+Thread i = 0, total data sent till now = 13947974
+Thread i = 1, total data sent till now = 2082279
+Thread i = 2, total data sent till now = 1816087
+Thread i = 3, total data sent till now = 2082279
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+Total time taken = 6376382 microseconds.
+Total data sent = 12.1613 MiB.
+Number of rounds = 367
+Total comm (sent+received) = (see SERVER OUTPUT)
+------------------------------------------------------
+Total time in Conv = 0 seconds.
+Total time in MatMul = 1.885 seconds.
+Total time in BatchNorm = 0.067 seconds.
+Total time in Truncation = 0.499 seconds.
+Total time in Relu = 0.776 seconds.
+Total time in MaxPool = 2.615 seconds.
+Total time in AvgPool = 0 seconds.
+Total time in ArgMax = 0 seconds.
+Total time in MatAdd = 0 seconds.
+Total time in MatAddBroadCast = 0 seconds.
+Total time in MulCir = 0 seconds.
+Total time in ScalarMul = 0 seconds.
+Total time in Sigmoid = 0 seconds.
+Total time in Tanh = 0 seconds.
+Total time in Sqrt = 0 seconds.
+Total time in NormaliseL2 = 0 seconds.
+------------------------------------------------------
+Conv data sent = 0 MiB.
+MatMul data sent = 10.9537 MiB.
+BatchNorm data sent = 0.357175 MiB.
+Truncation data sent = 0.27887 MiB.
+Relu data sent = 0.319427 MiB.
+Maxpool data sent = 0.252136 MiB.
+Avgpool data sent = 0 MiB.
+ArgMax data sent = 0 MiB.
+MatAdd data sent = 0 MiB.
+MatAddBroadCast data sent = 0 MiB.
+MulCir data sent = 0 MiB.
+Sigmoid data sent = 0 MiB.
+Tanh data sent = 0 MiB.
+Sqrt data sent = 0 MiB.
+NormaliseL2 data sent = 0 MiB.
+------------------------------------------------------
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
